@@ -117,11 +117,7 @@ export const App = () => {
 
     return `
 ${preset}
-${
-  t("watched") === "Watched"
-    ? "User anime viewing record: (the year below is the anime release year)"
-    : "用户动画观看记录：(下面的年份是动画发布的年份)"
-}
+用戶動畫觀看記錄：(下面的年份是動畫發布的年份)
 ${visibleYears
   .map((year) => {
     const items = animeData[year] || []
@@ -203,16 +199,11 @@ ${visibleYears
                     <div
                       className={`
                       bg-red-500 shrink-0 text-white flex items-center font-bold justify-center p-1 border-black
-                      h-16 md:h-20 
-                      ${language === "en" ? "w-16 md:w-20" : "w-16 md:w-20"}
+                      h-16 md:h-20 w-16 md:w-20
                     `}
                     >
                       <span
-                        className={`${
-                          language === "en"
-                            ? "text-sm md:text-base"
-                            : "text-base"
-                        } text-center`}
+                        className="text-base text-center"
                       >
                         {year}
                       </span>
@@ -226,15 +217,10 @@ ${visibleYears
                           <button
                             key={animeKey}
                             className={`
-                              h-16 md:h-20 
-                              ${
-                                language === "en"
-                                  ? "w-20 md:w-24"
-                                  : "w-16 md:w-20"
-                              }
+                              h-16 md:h-20 w-16 md:w-20
                               border-l break-words text-center shrink-0 inline-flex items-center 
                               p-1 overflow-hidden justify-center cursor-pointer 
-                              ${language === "en" ? "text-xs" : "text-sm"} 
+                              text-sm 
                               ${
                                 isSelected
                                   ? "bg-green-500"
@@ -255,11 +241,7 @@ ${visibleYears
                             }}
                           >
                             <span
-                              className={`leading-tight w-full ${
-                                language === "en"
-                                  ? "line-clamp-4"
-                                  : "line-clamp-3"
-                              }`}
+                              className="leading-tight w-full line-clamp-3"
                             >
                               {displayTitle}
                             </span>
@@ -271,15 +253,7 @@ ${visibleYears
                         (_, index) => (
                           <div
                             key={`empty-${index}`}
-                            className={`
-                            h-16 md:h-20 
-                            ${
-                              language === "en"
-                                ? "w-20 md:w-24"
-                                : "w-16 md:w-20"
-                            }
-                            border-l bg-gray-50
-                          `}
+                            className="h-16 md:h-20 w-16 md:w-20 border-l bg-gray-50"
                           />
                         )
                       )}
@@ -394,18 +368,6 @@ ${visibleYears
                 >
                   {t("copy")}
                 </button>
-
-                <button
-                  type="button"
-                  className="text-sm text-zinc-500 hover:bg-zinc-100 px-1.5 h-7 flex items-center rounded-md"
-                  onClick={() => {
-                    location.href = `chatwise://chat?input=${encodeURIComponent(
-                      prompt
-                    )}`
-                  }}
-                >
-                  {t("openInChatWise")}
-                </button>
               </div>
             </div>
             <textarea
@@ -428,7 +390,7 @@ ${visibleYears
             target="_blank"
             className="underline"
           >
-            {language === "zh" ? "低空飞行" : "egoist"}
+            {language === "zh" ? "低空飛行" : "egoist"}
           </a>
           {t("madeBy")}
           <a
@@ -438,32 +400,6 @@ ${visibleYears
           >
             {t("viewCode")}
           </a>
-        </div>
-
-        {language === "en" && (
-          <div className="text-center text-sm text-gray-600">
-            English version is translated by{" "}
-            <a
-              href="https://mhh0318.github.io/"
-              target="_blank"
-              className="underline"
-            >
-              h1t
-            </a>
-          </div>
-        )}
-
-        <div className="text-center">
-          {t("otherProducts")}
-          <a
-            href="https://chatwise.app"
-            target="_blank"
-            className="underline inline-flex items-center gap-1"
-          >
-            <img src="https://chatwise.app/favicon.png" className="size-4" />{" "}
-            ChatWise
-          </a>
-          {t("aiChatClient")}
         </div>
       </div>
     </>

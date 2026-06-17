@@ -1,84 +1,40 @@
-export type Language = "zh" | "en" | "ja"
+export type Language = "zh" | "ja"
 
 export const translations = {
   zh: {
-    title: "动画世代",
-    subtitle: "点击选择你看过的动画",
+    title: "動畫世代",
+    subtitle: "點擊選擇你看過的動畫",
     website: "anime-sedai.egoist.dev",
-    watchedCount: "我看过 {{count}}/{{total}} 部动画",
-    selectAll: "全选",
+    watchedCount: "我看過 {{count}}/{{total}} 部動畫",
+    selectAll: "全選",
     clear: "清除",
-    copyImage: "复制图片",
-    downloadImage: "下载图片",
-    copySuccess: "复制成功",
-    downloadSuccess: "下载成功",
-    copyFailed: "复制失败: {{error}}",
-    downloadFailed: "下载失败: {{error}}",
-    copying: "复制中",
-    downloading: "下载中",
-    unknownError: "未知错误",
-    promptType: "锐评提示词",
+    copyImage: "複製圖片",
+    downloadImage: "下載圖片",
+    copySuccess: "複製成功",
+    downloadSuccess: "下載成功",
+    copyFailed: "複製失敗: {{error}}",
+    downloadFailed: "下載失敗: {{error}}",
+    copying: "複製中",
+    downloading: "下載中",
+    unknownError: "未知錯誤",
+    promptType: "銳評提示詞",
     promptNormal: "普通",
-    promptZako: "杂鱼❤",
-    copy: "复制",
-    openInChatWise: "在 ChatWise 中打开 (需要先安装)",
-    footer: "历年关注最多的动画，数据来自 bgm.tv，由",
-    madeBy: "制作，",
-    viewCode: "查看代码",
-    otherProducts: "作者的其它产品: ",
-    aiChatClient: ", 一个优雅的 AI 聊天客户端",
+    promptZako: "雜魚❤",
+    copy: "複製",
+    footer: "歷年關注最多的動畫，數據來自 bgm.tv，由",
+    madeBy: "製作，",
+    viewCode: "查看代碼",
     year: "年",
-    watched: "看过",
-    notWatched: "没看过",
-    none: "无",
-    yearRange: "年份范围",
+    watched: "看過",
+    notWatched: "沒看過",
+    none: "無",
+    yearRange: "年份範圍",
     last5Years: "近 5 年",
     last10Years: "近 10 年",
     last15Years: "近 15 年",
     allYears: "全部",
-    language: "语言",
+    language: "語言",
     chinese: "中文",
-    english: "English",
-    japanese: "日本語",
-  },
-  en: {
-    title: "Anime Sedai",
-    subtitle: "Click to select anime you have watched",
-    website: "anime-sedai.egoist.dev",
-    watchedCount: "I have watched {{count}}/{{total}} anime",
-    selectAll: "Select All",
-    clear: "Clear",
-    copyImage: "Copy Image",
-    downloadImage: "Download Image",
-    copySuccess: "Copy successful",
-    downloadSuccess: "Download successful",
-    copyFailed: "Copy failed: {{error}}",
-    downloadFailed: "Download failed: {{error}}",
-    copying: "Copying",
-    downloading: "Downloading",
-    unknownError: "Unknown error",
-    promptType: "AI Prompt",
-    promptNormal: "Normal",
-    promptZako: "Zako❤",
-    copy: "Copy",
-    openInChatWise: "Open in ChatWise (installation required)",
-    footer: "Most watched anime by year, data from bgm.tv, made by ",
-    madeBy: ", ",
-    viewCode: "View Code",
-    otherProducts: "Other products by the author: ",
-    aiChatClient: ", an elegant AI chat client",
-    year: "",
-    watched: "Watched",
-    notWatched: "Not Watched",
-    none: "None",
-    yearRange: "Years",
-    last5Years: "Last 5 years",
-    last10Years: "Last 10 years",
-    last15Years: "Last 15 years",
-    allYears: "All",
-    language: "Language",
-    chinese: "中文",
-    english: "English",
     japanese: "日本語",
   },
   ja: {
@@ -101,12 +57,9 @@ export const translations = {
     promptNormal: "通常",
     promptZako: "雑魚❤",
     copy: "コピー",
-    openInChatWise: "ChatWiseでオープン (インストール必要)",
     footer: "各年フォロー数の一番多いアニメ。データソース：bgm.tv。作成者：",
     madeBy: "。",
     viewCode: "ソースコードを見る",
-    otherProducts: "この開発者の他の製品: ",
-    aiChatClient: "〜優雅なAIチャットクライアント〜",
     year: "年",
     watched: "見た",
     notWatched: "見ていない",
@@ -118,84 +71,41 @@ export const translations = {
     allYears: "すべて",
     language: "言語",
     chinese: "中文",
-    english: "English",
     japanese: "日本語",
   },
 }
 
 const promptTemplates: Record<Language, Record<"normal" | "zako", string>> = {
   zh: {
-    normal: `以下是用户的动画观看记录，请生成一个锐评。`,
-    zako: `你是一个精通二次元文化的傲娇雌小鬼，需要根据用户提供的动画观看记录，用雌小鬼惯用的嘲讽语气混合动画圈梗生成锐评报告。要求：
-1. 结构模板
-  - 列出5-6个嘲讽段落
-  - 每个段落的所有内容请务必都包含在 ">> 标签" 开始的一行之后！！
-  - 每一个嘲讽段落的主题都应当不同，且应当尖锐
-  - 你应当大量地使用"杂鱼"、"❤"、"杂鱼~"、"杂鱼❤~"，"不会吧不会吧"等雌小鬼常用词汇
-  - 不要在输出的报告中写题目以及任何 markdown 样式，这非常，非常重要！！
-2. 内容规则
-  - 一些常见的梗类型：
-    - 冷门番暴露癖（例："看这种没人听的冷门番，大哥哥该不会在等弹幕里出现'同类'吧？杂鱼❤"）
-    - 补番速度羞辱（例："三年才看十部？杂鱼哥哥的补番速度比柯南破案还慢呢~"）
-    - 类型单一化（例："全是异世界？大哥哥的想象力比史莱姆还黏稠呢~"）
-    - 标题长度玩梗（例："《打了300年史莱姆》这种标题...杂鱼哥哥该不会真信能活300年吧？"）
-    - 所有内容必须包含在 ">> 标签" 行之后
-  - 想一下还有哪些适合用来嘲讽的梗，但不要太多，否则会显得很杂乱
+    normal: `以下是用戶的動畫觀看記錄，請生成一個銳評。`,
+    zako: `你是一個精通二次元文化的傲嬌雌小鬼，需要根據用戶提供的動畫觀看記錄，用雌小鬼慣用的嘲諷語氣混合動畫圈梗生成銳評報告。要求：
+1. 結構模板
+  - 列出5-6個嘲諷段落
+  - 每個段落的所有內容請務必都包含在 ">> 標籤" 開始的一行之後！！
+  - 每一個嘲諷段落的主題都應當不同，且應當尖銳
+  - 你應當大量地使用"雜魚"、"❤"、"雜魚~"、"雜魚❤~"，"不會吧不會吧"等雌小鬼常用詞彙
+  - 不要在輸出的報告中寫題目以及任何 markdown 樣式，這非常，非常重要！！
+2. 內容規則
+  - 一些常見的梗類型：
+    - 冷門番暴露癖（例："看這種沒人聽的冷門番，大哥哥該不會在等彈幕裡出現'同類'吧？雜魚❤"）
+    - 補番速度羞辱（例："三年才看十部？雜魚哥哥的補番速度比柯南破案還慢呢~"）
+    - 類型單一化（例："全是異世界？大哥哥的想像力比史萊姆還黏稠呢~"）
+    - 標題長度玩梗（例："《打了300年史萊姆》這種標題...雜魚哥哥該不會真信能活300年吧？"）
+    - 所有內容必須包含在 ">> 標籤" 行之後
+  - 想一下還有哪些適合用來嘲諷的梗，但不要太多，否則會顯得很雜亂
 3. 示例:
 """
->> 补番龟速の杂鱼❤  
+>> 補番龜速の雜魚❤  
 
-不会吧不会吧？从2006到2025年只啃了三部动画？杂鱼哥哥的补番速度比吉良吉影的日常还慢呢❤~等你看完新番，人类都移民火星了杂鱼~杂鱼❤~
+不會吧不會吧？從2006到2025年只啃了三部動畫？雜魚哥哥的補番速度比吉良吉影的日常還慢呢❤~等你看完新番，人類都移民火星了雜魚~雜魚❤~
 
->> 冷门番の孤独癖❤  
+>> 冷門番の孤獨癖❤  
 
-太空丹迪和异世界舅舅？看这种没人讨论的冷门番，杂鱼哥哥该不会在弹幕里蹲"同类"吧❤~不会真以为自己是宇宙第一鉴赏家吧？杂鱼❤~   
+太空丹迪和異世界舅舅？看這種沒人討論的冷門番，雜魚哥哥該不會在彈幕裡蹲"同類"吧❤~不會真以為自己是宇宙第一鑑賞家吧？雜魚❤~   
 
->> 番量贫瘠の杂鱼❤  
+>> 番量貧瘠の雜魚❤  
 
-三部动画就敢自称阿宅？杂鱼哥哥的番单比史莱姆还稀薄呢❤~不会吧不会吧，该不会把补番当成就系统刷吧？杂鱼❤~杂鱼~
-
->> ...
-
-...
-
->> ...
-
-...
-"""
-
-现在开始分析用户的动画观看记录，按上述格式输出锐评报告。`,
-  },
-  en: {
-    normal: `The following is the user's anime viewing record, please generate a sharp review.`,
-    zako: `You are a proud and arrogant anime otaku girl who needs to generate a sharp review report based on the user's anime viewing record using the sarcastic tone commonly used by tsundere characters mixed with anime culture memes. Requirements:
-1. Structure template
-  - List 5-6 sarcastic paragraphs
-  - All content in each paragraph must be included after a line starting with ">> tag"!!
-  - Each sarcastic paragraph should have a different theme and should be sharp
-  - You should extensively use terms like "Zako", "❤", "Zako~", "Zako❤~", "No way no way" and other commonly used tsundere vocabulary
-  - Do not write titles or any markdown styles in the output report, this is very, very important!!
-2. Content rules
-  - Some common meme types:
-    - Obscure anime exposure fetish (e.g., "Watching such obscure anime that no one talks about, big brother wouldn't be waiting for 'fellow fans' to appear in the comments, would you? Zako❤")
-    - Anime watching speed shaming (e.g., "Only ten shows in three years? Big brother's anime completion speed is slower than Conan solving cases~")
-    - Type singularity (e.g., "All isekai? Big brother's imagination is stickier than slime~")
-    - Title length memes (e.g., "Titles like 'I've Been Killing Slimes for 300 Years'... Zako brother wouldn't really believe you can live 300 years, would you?")
-    - All content must be included after ">> tag" lines
-  - Think of other suitable memes for sarcasm, but not too many, otherwise it will seem cluttered
-3. Example:
-"""
->> Turtle-speed anime completion Zako❤  
-
-No way no way? Only watched three anime from 2006 to 2025? Big brother's anime completion speed is slower than Kira Yoshikage's daily routine❤~ By the time you finish watching new anime, humans will have migrated to Mars, Zako~Zako❤~
-
->> Obscure anime loner fetish❤  
-
-Space Dandy and Uncle from Another World? Watching such obscure anime that no one discusses, big brother wouldn't be lurking in the comments waiting for "fellow fans", would you❤~ You wouldn't really think you're the universe's number one connoisseur, would you? Zako❤~   
-
->> Meager anime count Zako❤  
-
-Three anime and you dare call yourself an otaku? Big brother's anime list is thinner than slime❤~ No way no way, you wouldn't treat anime completion like an achievement system, would you? Zako❤~Zako~
+三部動畫就敢自稱阿宅？雜魚哥哥的番單比史萊姆還稀薄呢❤~不會吧不會吧，該不會把補番當成就系統刷吧？雜魚❤~雜魚~
 
 >> ...
 
@@ -206,7 +116,7 @@ Three anime and you dare call yourself an otaku? Big brother's anime list is thi
 ...
 """
 
-Now start analyzing the user's anime viewing record and output a sharp review report according to the above format.`,
+現在開始分析用戶的動畫觀看記錄，按上述格式輸出銳評報告。`,
   },
   ja: {
     normal: `以下はユーザーのアニメ視聴履歴です。辛口なレビューを生成してください。`,

@@ -2,7 +2,6 @@ import type { Language } from "./src/i18n"
 
 type AnimeItem = {
   titleZh: string
-  titleEn: string
   titleJa: string
   score: number
 }
@@ -12,1956 +11,1417 @@ type Data = {
 }
 
 const data: Data = {
+  "2000": [
+    {
+      titleZh: "星界戰旗",
+      titleJa: "星界の戦旗",
+      score: 0
+    },
+    {
+      titleZh: "隨風飄的月影蘭",
+      titleJa: "風まかせ月影蘭",
+      score: 0
+    },
+    {
+      titleZh: "遊戲王",
+      titleJa: "遊☆戯☆王",
+      score: 0
+    },
+    {
+      titleZh: "外星人田中太郎",
+      titleJa: "うちゅう人田中太郎",
+      score: 0
+    },
+    {
+      titleZh: "純情房東俏房客",
+      titleJa: "ラブひな",
+      score: 0
+    },
+    {
+      titleZh: "哈姆太郎",
+      titleJa: "とっとこハム太郎",
+      score: 0
+    },
+    {
+      titleZh: "第一神拳",
+      titleJa: "はじめの一歩",
+      score: 0
+    },
+    {
+      titleZh: "犬夜叉",
+      titleJa: "犬夜叉",
+      score: 0
+    },
+    {
+      titleZh: "GEAR戰士電童",
+      titleJa: "GEAR戦士電童",
+      score: 0
+    },
+    {
+      titleZh: "網路安琪兒 第二季",
+      titleJa: "コレクター・ユイ二期",
+      score: 0
+    }
+  ],
+  "2001": [
+    {
+      titleZh: "棋靈王",
+      titleJa: "ヒカルの碁",
+      score: 0
+    },
+    {
+      titleZh: "聖石小子",
+      titleJa: "RAVE",
+      score: 0
+    },
+    {
+      titleZh: "逮捕令",
+      titleJa: "逮捕しちゃうぞ",
+      score: 0
+    },
+    {
+      titleZh: "通靈王",
+      titleJa: "シャーマンキング",
+      score: 0
+    },
+    {
+      titleZh: "魔法水果籃",
+      titleJa: "フルーツバスケット",
+      score: 0
+    },
+    {
+      titleZh: "X",
+      titleJa: "X",
+      score: 0
+    },
+    {
+      titleZh: "網球王子",
+      titleJa: "テニスの王子様",
+      score: 0
+    },
+    {
+      titleZh: "超能奇兵",
+      titleJa: "スクライド",
+      score: 0
+    },
+    {
+      titleZh: "彗星公主",
+      titleJa: "コメットさん☆",
+      score: 0
+    },
+    {
+      titleZh: "戰鬥陀螺",
+      titleJa: "爆転シュートベイブレード",
+      score: 0
+    }
+  ],
+  "2002": [
+    {
+      titleZh: "翼神世音",
+      titleJa: "RahXephon",
+      score: 0
+    },
+    {
+      titleZh: "Kanon",
+      titleJa: "Kanon",
+      score: 0
+    },
+    {
+      titleZh: "驚爆危機！",
+      titleJa: "フルメタル・パニック！",
+      score: 0
+    },
+    {
+      titleZh: "阿倍野橋魔法☆商店街",
+      titleJa: "アベノ橋魔法☆商店街",
+      score: 0
+    },
+    {
+      titleZh: ".hack//SIGN",
+      titleJa: ".hack//SIGN",
+      score: 0
+    },
+    {
+      titleZh: "最終兵器少女",
+      titleJa: "最終兵器彼女",
+      score: 0
+    },
+    {
+      titleZh: "機動戰士鋼彈SEED",
+      titleJa: "ガンダムSEED",
+      score: 0
+    },
+    {
+      titleZh: "灰羽連盟",
+      titleJa: "灰羽連盟",
+      score: 0
+    },
+    {
+      titleZh: "閃靈二人組",
+      titleJa: "GetBackers",
+      score: 0
+    },
+    {
+      titleZh: "十二國記",
+      titleJa: "十二国記",
+      score: 0
+    }
+  ],
+  "2003": [
+    {
+      titleZh: "狼雨",
+      titleJa: "Wolf’s Rain",
+      score: 0
+    },
+    {
+      titleZh: "明日的娜佳",
+      titleJa: "明日のナージャ",
+      score: 0
+    },
+    {
+      titleZh: "最後流亡",
+      titleJa: "LASTEXILE",
+      score: 0
+    },
+    {
+      titleZh: "奇諾之旅",
+      titleJa: "キノの旅",
+      score: 0
+    },
+    {
+      titleZh: "R.O.D",
+      titleJa: "R.O.D",
+      score: 0
+    },
+    {
+      titleZh: "惑星奇航",
+      titleJa: "プラネテス",
+      score: 0
+    },
+    {
+      titleZh: "神槍少女",
+      titleJa: "Gunslinger Girl",
+      score: 0
+    },
+    {
+      titleZh: "機魂末世錄",
+      titleJa: "TEXHNOLYZE",
+      score: 0
+    },
+    {
+      titleZh: "麥穗星之夢",
+      titleJa: "ふたつのスピカ",
+      score: 0
+    },
+    {
+      titleZh: "萬花筒之星",
+      titleJa: "カレイドスター",
+      score: 0
+    }
+  ],
+  "2004": [
+    {
+      titleZh: "攻殼機動隊 S.A.C. 2nd GIG",
+      titleJa: "攻殻機動隊 S.A.C. 2nd GIG",
+      score: 0
+    },
+    {
+      titleZh: "聖母在上",
+      titleJa: "マリア様がみてる",
+      score: 0
+    },
+    {
+      titleZh: "妄想代理人",
+      titleJa: "妄想代理人",
+      score: 0
+    },
+    {
+      titleZh: "怪物",
+      titleJa: "MONSTER",
+      score: 0
+    },
+    {
+      titleZh: "月詠",
+      titleJa: "月詠",
+      score: 0
+    },
+    {
+      titleZh: "巖窟王",
+      titleJa: "巌窟王",
+      score: 0
+    },
+    {
+      titleZh: "校園迷糊大王",
+      titleJa: "スクールランブル",
+      score: 0
+    },
+    {
+      titleZh: "怪醫黑傑克",
+      titleJa: "ブラック・ジャック",
+      score: 0
+    },
+    {
+      titleZh: "神無月的巫女",
+      titleJa: "神無月の巫女",
+      score: 0
+    },
+    {
+      titleZh: "BECK",
+      titleJa: "BECK",
+      score: 0
+    }
+  ],
+  "2005": [
+    {
+      titleZh: "魔法老師",
+      titleJa: "ネギま!",
+      score: 0
+    },
+    {
+      titleZh: "AIR",
+      titleJa: "AIR",
+      score: 0
+    },
+    {
+      titleZh: "甲賀忍法帖",
+      titleJa: "バジリスク",
+      score: 0
+    },
+    {
+      titleZh: "交響詩篇艾蕾卡7",
+      titleJa: "エウレカセブン",
+      score: 0
+    },
+    {
+      titleZh: "武器種族傳說",
+      titleJa: "エレメンタルジェレイド",
+      score: 0
+    },
+    {
+      titleZh: "魔法少女奈葉A's",
+      titleJa: "リリカルなのはA's",
+      score: 0
+    },
+    {
+      titleZh: "極速方程式",
+      titleJa: "Capeta",
+      score: 0
+    },
+    {
+      titleZh: "神樣中學生",
+      titleJa: "かみちゅ!",
+      score: 0
+    },
+    {
+      titleZh: "蟲師",
+      titleJa: "蟲師",
+      score: 0
+    },
+    {
+      titleZh: "槍與劍",
+      titleJa: "ガン×ソード",
+      score: 0
+    }
+  ],
   "2006": [
     {
-      titleZh: "死亡笔记",
-      titleEn: "Death Note",
-      titleJa: "DEATH NOTE",
-      score: 8.4,
-    },
-    { titleZh: "银魂", titleEn: "Gintama", titleJa: "銀魂", score: 8.7 },
-    {
-      titleZh: "寒蝉鸣泣之时",
-      titleEn: "Higurashi When They Cry",
-      titleJa: "ひぐらしのなく頃に",
-      score: 8,
+      titleZh: "死亡代理人",
+      titleJa: "Ergo Proxy",
+      score: 0
     },
     {
-      titleZh: "Code Geass 反叛的鲁路修",
-      titleEn: "Code Geass: Lelouch of the Rebellion",
-      titleJa: "コードギアス 反逆のルルーシュ",
-      score: 8.3,
+      titleZh: "水星領航員 The NATURAL",
+      titleJa: "ARIA The NATURAL",
+      score: 0
     },
     {
-      titleZh: "欢迎加入NHK！",
-      titleEn: "Welcome to the N.H.K.",
+      titleZh: "受讚頌者",
+      titleJa: "うたわれるもの",
+      score: 0
+    },
+    {
+      titleZh: "彩雲國物語",
+      titleJa: "彩雲国物語",
+      score: 0
+    },
+    {
+      titleZh: "歡迎加入NHK!",
       titleJa: "NHKにようこそ!",
-      score: 8.2,
+      score: 0
     },
-    {
-      titleZh: "Fate/stay night",
-      titleEn: "Fate/stay night",
-      titleJa: "Fate/stay night",
-      score: 7.1,
-    },
-    {
-      titleZh: "凉宫春日的忧郁",
-      titleEn: "The Melancholy of Haruhi Suzumiya",
-      titleJa: "涼宮ハルヒの憂鬱",
-      score: 8.2,
-    },
-    {
-      titleZh: "零之使魔",
-      titleEn: "The Familiar of Zero",
-      titleJa: "ゼロの使い魔",
-      score: 7,
-    },
-    {
-      titleZh: "黑礁",
-      titleEn: "Black Lagoon",
-      titleJa: "BLACK LAGOON",
-      score: 7.8,
-    },
-    { titleZh: "Kanon", titleEn: "Kanon", titleJa: "Kanon", score: 7.7 },
-    { titleZh: "娜娜", titleEn: "NANA", titleJa: "NANA", score: 8 },
     {
       titleZh: "×××HOLiC",
-      titleEn: "×××HOLiC",
       titleJa: "×××HOLiC",
-      score: 7.8,
+      score: 0
     },
     {
-      titleZh: "家庭教师HITMAN REBORN!",
-      titleEn: "Katekyo Hitman Reborn!",
-      titleJa: "家庭教師ヒットマンREBORN!",
-      score: 7.5,
+      titleZh: "NANA",
+      titleJa: "NANA",
+      score: 0
     },
     {
-      titleZh: "樱兰高校男公关部",
-      titleEn: "Ouran High School Host Club",
-      titleJa: "桜蘭高校ホスト部",
-      score: 7.6,
+      titleZh: "蜂蜜幸運草 第二季",
+      titleJa: "ハチミツとクローバー二期",
+      score: 0
     },
     {
-      titleZh: "蜂蜜与四叶草II",
-      titleEn: "Honey and Clover II",
-      titleJa: "ハチミツとクローバーII",
-      score: 8.5,
+      titleZh: "我們的存在",
+      titleJa: "僕等がいた",
+      score: 0
     },
+    {
+      titleZh: "厄夜怪客 OVA",
+      titleJa: "HELLSING OVA",
+      score: 0
+    }
   ],
   "2007": [
     {
-      titleZh: "幸运星",
-      titleEn: "Lucky Star",
+      titleZh: "交響情人夢",
+      titleJa: "のだめカンタービレ",
+      score: 0
+    },
+    {
+      titleZh: "悲慘世界 少女珂賽特",
+      titleJa: "少女コゼット",
+      score: 0
+    },
+    {
+      titleZh: "王牌投手 振臂高揮",
+      titleJa: "おおきく振りかぶって",
+      score: 0
+    },
+    {
+      titleZh: "DARKER THAN BLACK -黑之契約者-",
+      titleJa: "DARKER THAN BLACK",
+      score: 0
+    },
+    {
+      titleZh: "幸運☆星",
       titleJa: "らき☆すた",
-      score: 8.3,
-    },
-    { titleZh: "CLANNAD", titleEn: "CLANNAD", titleJa: "CLANNAD", score: 8.3 },
-    {
-      titleZh: "天元突破 红莲螺岩",
-      titleEn: "Tengen Toppa Gurren Lagann",
-      titleJa: "天元突破グレンラガン",
-      score: 8.6,
+      score: 0
     },
     {
-      titleZh: "旋风管家",
-      titleEn: "Hayate the Combat Butler",
-      titleJa: "ハヤテのごとく！",
-      score: 7.4,
+      titleZh: "萌菌物語",
+      titleJa: "もやしもん",
+      score: 0
     },
     {
-      titleZh: "火影忍者疾风传",
-      titleEn: "Naruto Shippuden",
-      titleJa: "NARUTO -ナルト- 疾風伝",
-      score: 7.6,
-    },
-    {
-      titleZh: "悠久之翼",
-      titleEn: "ef: A Tale of Memories",
-      titleJa: "ef - a tale of memories.",
-      score: 7.9,
-    },
-    {
-      titleZh: "赌博默示录",
-      titleEn: "Kaiji: Ultimate Survivor",
-      titleJa: "賭博黙示録カイジ",
-      score: 7.9,
-    },
-    {
-      titleZh: "永生之酒",
-      titleEn: "Baccano!",
-      titleJa: "バッカーノ！",
-      score: 8.2,
-    },
-    {
-      titleZh: "机动战士高达00",
-      titleEn: "Mobile Suit Gundam 00",
-      titleJa: "機動戦士ガンダム00",
-      score: 7.6,
-    },
-    {
-      titleZh: "再见绝望先生",
-      titleEn: "Sayonara, Zetsubou-Sensei",
+      titleZh: "絕望先生",
       titleJa: "さよなら絶望先生",
-      score: 7.8,
+      score: 0
     },
     {
-      titleZh: "日在校园",
-      titleEn: "School Days",
-      titleJa: "スクールデイズ",
-      score: 6.3,
+      titleZh: "BACCANO! 大騷動!",
+      titleJa: "BACCANO!",
+      score: 0
     },
     {
-      titleZh: "南家三姐妹",
-      titleEn: "Minami-ke",
-      titleJa: "みなみけ",
-      score: 7.6,
+      titleZh: "物怪",
+      titleJa: "モノノ怪",
+      score: 0
     },
     {
-      titleZh: "DARKER THAN BLACK -黑之契约者-",
-      titleEn: "Darker than Black",
-      titleJa: "DARKER THAN BLACK -黒の契約者-",
-      score: 8,
-    },
-    {
-      titleZh: "濑户的花嫁",
-      titleEn: "My Bride is a Mermaid",
-      titleJa: "瀬戸の花嫁",
-      score: 7.4,
-    },
-    {
-      titleZh: "电脑线圈",
-      titleEn: "Dennō Coil",
-      titleJa: "電脳コイル",
-      score: 8.1,
-    },
-    { titleZh: "物怪", titleEn: "Mononoke", titleJa: "モノノ怪", score: 8.2 },
-    {
-      titleZh: "向阳素描",
-      titleEn: "Hidamari Sketch",
-      titleJa: "ひだまりスケッチ",
-      score: 7.5,
-    },
-    {
-      titleZh: "零之使魔 双月骑士",
-      titleEn: "The Familiar of Zero: Knight of the Twin Moons",
-      titleJa: "ゼロの使い魔〜双月の騎士〜",
-      score: 6.9,
-    },
-    { titleZh: "sola", titleEn: "Sola", titleJa: "sola", score: 7.2 },
+      titleZh: "ef - a tale of memories.",
+      titleJa: "ef - a tale of memories.",
+      score: 0
+    }
   ],
   "2008": [
     {
-      titleZh: "出包王女",
-      titleEn: "To Love-Ru",
-      titleJa: "To LOVEる -とらぶる-",
-      score: 6.9,
-    },
-    {
-      titleZh: "龙与虎",
-      titleEn: "Toradora!",
-      titleJa: "とらドラ！",
-      score: 8,
-    },
-    {
-      titleZh: "魔法禁书目录",
-      titleEn: "A Certain Magical Index",
-      titleJa: "とある魔術の禁書目録",
-      score: 6.8,
-    },
-    {
-      titleZh: "狼与香辛料",
-      titleEn: "Spice and Wolf",
+      titleZh: "狼與辛香料",
       titleJa: "狼と香辛料",
-      score: 7.8,
+      score: 0
     },
     {
-      titleZh: "夏目友人帐",
-      titleEn: "Natsume's Book of Friends",
-      titleJa: "夏目友人帳",
-      score: 8,
+      titleZh: "迷宮塔 ～烏魯克之盾～",
+      titleJa: "ドルアーガの塔 the Aegis of URUK",
+      score: 0
     },
     {
-      titleZh: "真实之泪",
-      titleEn: "True Tears",
-      titleJa: "true tears",
-      score: 7.5,
-    },
-    { titleZh: "神薙", titleEn: "Kannagi", titleJa: "かんなぎ", score: 7.1 },
-    {
-      titleZh: "我的狐仙女友",
-      titleEn: "Kanokon",
-      titleJa: "かのこん",
-      score: 6.1,
+      titleZh: "吸血鬼騎士",
+      titleJa: "ヴァンパイア騎士",
+      score: 0
     },
     {
-      titleZh: "噬魂师",
-      titleEn: "Soul Eater",
-      titleJa: "ソウルイーター",
-      score: 7.4,
-    },
-    { titleZh: "黑执事", titleEn: "Black Butler", titleJa: "黒執事", score: 7 },
-    {
-      titleZh: "俗・再见绝望先生",
-      titleEn: "Zoku Sayonara Zetsubou Sensei",
-      titleJa: "俗・さよなら絶望先生",
-      score: 7.8,
+      titleZh: "海馬",
+      titleJa: "カイバ",
+      score: 0
     },
     {
-      titleZh: "鹡鸰女神",
-      titleEn: "Sekirei",
-      titleJa: "セキレイ",
-      score: 6.2,
+      titleZh: "CLANNAD AFTER STORY",
+      titleJa: "CLANNAD AFTER STORY",
+      score: 0
     },
     {
-      titleZh: "强袭魔女",
-      titleEn: "Strike Witches",
-      titleJa: "ストライクウィッチーズ",
-      score: 7.1,
+      titleZh: "超智遊戲",
+      titleJa: "ONE OUTS",
+      score: 0
     },
+    {
+      titleZh: "骷髏13",
+      titleJa: "ゴルゴ13",
+      score: 0
+    },
+    {
+      titleZh: "H2O -FOOTPRINTS IN THE SAND-",
+      titleJa: "H2O FOOTPRINTSIN THE SAND",
+      score: 0
+    },
+    {
+      titleZh: "遊戲王5D's",
+      titleJa: "遊☆戯☆王5D's",
+      score: 0
+    },
+    {
+      titleZh: "S・A特優生",
+      titleJa: "S・Aスペシャル・エー",
+      score: 0
+    }
   ],
   "2009": [
-    { titleZh: "轻音少女", titleEn: "K-ON!", titleJa: "けいおん!", score: 8.2 },
     {
-      titleZh: "钢之炼金术师 FULLMETAL ALCHEMIST",
-      titleEn: "Fullmetal Alchemist: Brotherhood",
-      titleJa: "鋼の錬金術師 FULLMETAL ALCHEMIST",
-      score: 8.8,
+      titleZh: "瑪莉亞狂熱",
+      titleJa: "まりあ†ほりっく",
+      score: 0
     },
     {
-      titleZh: "化物语",
-      titleEn: "Bakemonogatari",
-      titleJa: "化物語",
-      score: 8.4,
+      titleZh: "幻靈鎮魂曲",
+      titleJa: "Phantom Requiem for the Phantom",
+      score: 0
     },
     {
-      titleZh: "凉宫春日的忧郁 2009",
-      titleEn: "The Melancholy of Haruhi Suzumiya (2009)",
-      titleJa: "涼宮ハルヒの憂鬱 (2009)",
-      score: 8,
+      titleZh: "幸運四葉草",
+      titleJa: "クロスゲーム",
+      score: 0
     },
     {
-      titleZh: "某科学的超电磁炮",
-      titleEn: "A Certain Scientific Railgun",
-      titleJa: "とある科学の超電磁砲",
-      score: 7.5,
+      titleZh: "東之伊甸",
+      titleJa: "東のエデン",
+      score: 0
     },
     {
-      titleZh: "学生会的一己之见",
-      titleEn: "Student Council's Discretion",
+      titleZh: "CANAAN (迦南)",
+      titleJa: "CANAAN",
+      score: 0
+    },
+    {
+      titleZh: "學生會的一存",
       titleJa: "生徒会の一存",
-      score: 7.4,
+      score: 0
     },
     {
-      titleZh: "天降之物",
-      titleEn: "Heaven's Lost Property",
-      titleJa: "そらのおとしもの",
-      score: 7.3,
+      titleZh: "信蜂",
+      titleJa: "テガミバチ",
+      score: 0
     },
     {
-      titleZh: "天才麻将少女",
-      titleEn: "Saki",
+      titleZh: "天才麻將少女",
       titleJa: "咲-Saki-",
-      score: 7.5,
+      score: 0
     },
     {
-      titleZh: "白色相簿",
-      titleEn: "White Album",
-      titleJa: "WHITE ALBUM",
-      score: 7.3,
+      titleZh: "你好 安妮",
+      titleJa: "こんにちはアン",
+      score: 0
     },
     {
-      titleZh: "妖精的尾巴",
-      titleEn: "Fairy Tail",
-      titleJa: "FAIRY TAIL",
-      score: 7.4,
-    },
-    {
-      titleZh: "好想告诉你",
-      titleEn: "Kimi ni Todoke",
-      titleJa: "君に届け",
-      score: 7.6,
-    },
+      titleZh: "浪漫追星社",
+      titleJa: "宙のまにまに",
+      score: 0
+    }
   ],
   "2010": [
     {
-      titleZh: "吊带袜天使",
-      titleEn: "Panty & Stocking with Garterbelt",
-      titleJa: "パンティ&ストッキングwithガーターベルト",
-      score: 8,
-    },
-    {
-      titleZh: "四叠半神话大系",
-      titleEn: "The Tatami Galaxy",
-      titleJa: "四畳半神話大系",
-      score: 8.6,
-    },
-    {
-      titleZh: "妄想学生会",
-      titleEn: "Seitokai Yakuindomo",
-      titleJa: "生徒会役員共",
-      score: 7.5,
-    },
-    {
-      titleZh: "缘之空",
-      titleEn: "Yosuga no Sora",
-      titleJa: "ヨスガノソラ",
-      score: 6.6,
-    },
-    {
-      titleZh: "笨蛋，测验，召唤兽",
-      titleEn: "Baka and Test",
-      titleJa: "バカとテストと召喚獣",
-      score: 7.4,
-    },
-    {
-      titleZh: "天使的心跳！",
-      titleEn: "Angel Beats!",
-      titleJa: "Angel Beats!",
-      score: 7.5,
-    },
-    {
-      titleZh: "无头骑士异闻录",
-      titleEn: "Durarara!!",
-      titleJa: "デュラララ!!",
-      score: 7.9,
-    },
-    {
-      titleZh: "只有神知道的世界",
-      titleEn: "The World God Only Knows",
-      titleJa: "神のみぞ知るセカイ",
-      score: 7.2,
-    },
-    {
-      titleZh: "圣诞之吻SS",
-      titleEn: "Amagami SS",
-      titleJa: "アマガミSS",
-      score: 7.3,
-    },
-    {
-      titleZh: "我的妹妹哪有这么可爱！",
-      titleEn: "Oreimo",
-      titleJa: "俺の妹がこんなに可愛いわけがない",
-      score: 7.1,
-    },
-    {
-      titleZh: "女仆咖啡厅",
-      titleEn: "And Yet the Town Moves",
-      titleJa: "それでも町は廻っている",
-      score: 7.8,
-    },
-    {
-      titleZh: "亲吻姐姐",
-      titleEn: "Kiss × Sis",
-      titleJa: "kiss×sis",
-      score: 6.7,
-    },
-    {
-      titleZh: "迷糊餐厅",
-      titleEn: "Working!",
-      titleJa: "WORKING!!",
-      score: 7.5,
-    },
-    {
-      titleZh: "学园默示录 HIGHSCHOOL OF THE DEAD",
-      titleEn: "High School of the Dead",
-      titleJa: "学園黙示録 HIGHSCHOOL OF THE DEAD",
-      score: 6.7,
-    },
-    {
-      titleZh: "荒川爆笑团",
-      titleEn: "Arakawa Under the Bridge",
-      titleJa: "荒川アンダー ザ ブリッジ",
-      score: 7.5,
-    },
-    {
-      titleZh: "天降之物f",
-      titleEn: "Heaven's Lost Property f",
-      titleJa: "そらのおとしものf",
-      score: 7.3,
-    },
-    {
-      titleZh: "爆漫王。",
-      titleEn: "Bakuman",
-      titleJa: "バクマン。",
-      score: 8,
-    },
-    {
-      titleZh: "会长是女仆大人！",
-      titleEn: "Maid Sama!",
-      titleJa: "会長はメイド様！",
-      score: 6.9,
-    },
-    {
-      titleZh: "圣痕炼金士",
-      titleEn: "Seikon no Qwaser",
-      titleJa: "聖痕のクェイサー",
-      score: 6,
-    },
-    {
       titleZh: "空之音",
-      titleEn: "Sound of the Sky",
       titleJa: "ソ・ラ・ノ・ヲ・ト",
-      score: 6.8,
+      score: 0
     },
+    {
+      titleZh: "刀語",
+      titleJa: "刀語",
+      score: 0
+    },
+    {
+      titleZh: "Heartcatch 光之美少女！",
+      titleJa: "ハートキャッチプリキュア",
+      score: 0
+    },
+    {
+      titleZh: "荒川爆笑團",
+      titleJa: "荒川アンダーザ ブリッジ",
+      score: 0
+    },
+    {
+      titleZh: "逆轉監督",
+      titleJa: "GIANTKILLING",
+      score: 0
+    },
+    {
+      titleZh: "聖誕之吻SS",
+      titleJa: "アマガミSS",
+      score: 0
+    },
+    {
+      titleZh: "學園默示錄 HIGHSCHOOL OF THE DEAD",
+      titleJa: "学園黙示録 HIGHSCHOOL OF THE DEAD",
+      score: 0
+    },
+    {
+      titleZh: "破刃之劍",
+      titleJa: "ブレイクブレイド",
+      score: 0
+    },
+    {
+      titleZh: "吊帶襪天使",
+      titleJa: "Panty & Stocking",
+      score: 0
+    },
+    {
+      titleZh: "女僕咖啡廳",
+      titleJa: "それでも町は廻っている",
+      score: 0
+    }
   ],
   "2011": [
     {
-      titleZh: "命运石之门",
-      titleEn: "Steins;Gate",
-      titleJa: "STEINS;GATE",
-      score: 8.8,
-    },
-    { titleZh: "日常", titleEn: "Nichijou", titleJa: "日常", score: 8.5 },
-    {
-      titleZh: "Fate/Zero",
-      titleEn: "Fate/Zero",
-      titleJa: "Fate/Zero",
-      score: 8.1,
+      titleZh: "GOSICK",
+      titleJa: "GOSICK",
+      score: 0
     },
     {
-      titleZh: "魔法少女小圆",
-      titleEn: "Puella Magi Madoka Magica",
-      titleJa: "魔法少女まどか☆マギカ",
-      score: 8.6,
+      titleZh: "放浪男孩",
+      titleJa: "放浪息子",
+      score: 0
     },
     {
-      titleZh: "回转企鹅罐",
-      titleEn: "Penguindrum",
-      titleJa: "輪るピングドラム",
-      score: 8,
+      titleZh: "TIGER & BUNNY",
+      titleJa: "TIGER & BUNNY",
+      score: 0
     },
     {
-      titleZh: "摇曳百合",
-      titleEn: "YuruYuri",
-      titleJa: "ゆるゆり",
-      score: 7.6,
+      titleZh: "召喚惡魔",
+      titleJa: "よんでますよアザゼルさん",
+      score: 0
     },
     {
-      titleZh: "我们仍未知道那天所看见的花的名字。",
-      titleEn: "AnoHana",
-      titleJa: "あの日見た花の名前を僕達はまだ知らない。",
-      score: 7.6,
-    },
-    {
-      titleZh: "罪恶王冠",
-      titleEn: "Guilty Crown",
-      titleJa: "ギルティクラウン",
-      score: 6.5,
-    },
-    {
-      titleZh: "花开伊吕波",
-      titleEn: "Hanasaku Iroha",
-      titleJa: "花咲くいろは",
-      score: 7.5,
-    },
-    {
-      titleZh: "偶像大师",
-      titleEn: "The Idolmaster",
-      titleJa: "アイドルマスター",
-      score: 8.3,
-    },
-    { titleZh: "GOSICK", titleEn: "GOSICK", titleJa: "GOSICK", score: 7.3 },
-    {
-      titleZh: "我的朋友很少",
-      titleEn: "Haganai",
-      titleJa: "僕は友達が少ない",
-      score: 6.8,
-    },
-    {
-      titleZh: "猎人",
-      titleEn: "Hunter x Hunter",
-      titleJa: "HUNTER×HUNTER",
-      score: 8.2,
-    },
-    {
-      titleZh: "未来日记",
-      titleEn: "Future Diary",
-      titleJa: "未来日記",
-      score: 7.2,
-    },
-    {
-      titleZh: "电波女与青春男",
-      titleEn: "Ground Control to Psychoelectric Girl",
+      titleZh: "電波女與青春男",
       titleJa: "電波女と青春男",
-      score: 7.1,
+      score: 0
     },
     {
-      titleZh: "这个是僵尸吗？",
-      titleEn: "Is This a Zombie?",
-      titleJa: "これはゾンビですか？",
-      score: 6.8,
+      titleZh: "死囚樂園",
+      titleJa: "デッドマンワンダーランド",
+      score: 0
     },
     {
-      titleZh: "赌博默示录 破戒录篇",
-      titleEn: "Kaiji: Against All Rules",
-      titleJa: "逆境無頼カイジ 破戒録篇",
-      score: 7.8,
-    },
-    {
-      titleZh: "迷茫管家与懦弱的我",
-      titleEn: "Mayo Chiki!",
-      titleJa: "まよチキ！",
-      score: 6.6,
-    },
-    {
-      titleZh: "纯白交响曲",
-      titleEn: "Mashiro-iro Symphony",
-      titleJa: "ましろ色シンフォニー",
-      score: 6.5,
-    },
-    {
-      titleZh: "神的记事本",
-      titleEn: "Heaven's Memo Pad",
+      titleZh: "神的記事簿",
       titleJa: "神様のメモ帳",
-      score: 6.7,
+      score: 0
     },
-    { titleZh: "BLOOD-C", titleEn: "BLOOD-C", titleJa: "BLOOD-C", score: 6 },
     {
-      titleZh: "丹特丽安的书架",
-      titleEn: "The Mystic Archives of Dantalian",
-      titleJa: "ダンタリアンの書架",
-      score: 7.1,
+      titleZh: "白兔糖",
+      titleJa: "うさぎドロップ",
+      score: 0
     },
+    {
+      titleZh: "迴轉企鵝罐",
+      titleJa: "輪るピングドラム",
+      score: 0
+    },
+    {
+      titleZh: "丹特麗安的書架",
+      titleJa: "ダンタリアンの書架",
+      score: 0
+    }
   ],
   "2012": [
-    { titleZh: "冰菓", titleEn: "Hyouka", titleJa: "氷菓", score: 8.2 },
     {
-      titleZh: "JOJO的奇妙冒险",
-      titleEn: "JoJo's Bizarre Adventure",
-      titleJa: "ジョジョの奇妙な冒険",
-      score: 7.8,
+      titleZh: "惡魔高校D×D",
+      titleJa: "ハイスクールD×D",
+      score: 0
     },
     {
       titleZh: "男子高中生的日常",
-      titleEn: "Daily Lives of High School Boys",
       titleJa: "男子高校生の日常",
-      score: 7.9,
+      score: 0
     },
     {
-      titleZh: "中二病也要谈恋爱！",
-      titleEn: "Love, Chunibyo & Other Delusions!",
-      titleJa: "中二病でも恋がしたい！",
-      score: 7.4,
+      titleZh: "宇宙兄弟",
+      titleJa: "宇宙兄弟",
+      score: 0
     },
     {
-      titleZh: "来自新世界",
-      titleEn: "From the New World",
-      titleJa: "新世界より",
-      score: 8.2,
+      titleZh: "白熊咖啡廳",
+      titleJa: "しろくまカフェ",
+      score: 0
     },
     {
-      titleZh: "伪物语",
-      titleEn: "Nisemonogatari",
-      titleJa: "偽物語",
-      score: 7.8,
-    },
-    { titleZh: "Another", titleEn: "Another", titleJa: "Another", score: 7 },
-    {
-      titleZh: "樱花庄的宠物女孩",
-      titleEn: "The Pet Girl of Sakurasou",
-      titleJa: "さくら荘のペットな彼女",
-      score: 7.4,
+      titleZh: "加速世界",
+      titleJa: "アクセルワールド",
+      score: 0
     },
     {
-      titleZh: "心理测量者",
-      titleEn: "Psycho-Pass",
-      titleJa: "PSYCHO-PASS サイコパス",
-      score: 7.9,
+      titleZh: "坂道上的阿波羅",
+      titleJa: "坂道のアポロン",
+      score: 0
     },
     {
-      titleZh: "恶魔高校 D×D",
-      titleEn: "High School DxD",
-      titleJa: "ハイスクールD×D",
-      score: 6.9,
-    },
-    {
-      titleZh: "刀剑神域",
-      titleEn: "Sword Art Online",
-      titleJa: "ソードアート・オンライン",
-      score: 7.3,
-    },
-    {
-      titleZh: "人类衰退之后",
-      titleEn: "Humanity Has Declined",
+      titleZh: "人類衰退之後",
       titleJa: "人類は衰退しました",
-      score: 7.9,
-    },
-    {
-      titleZh: "Little Busters!",
-      titleEn: "Little Busters!",
-      titleJa: "リトルバスターズ！",
-      score: 7.1,
-    },
-    {
-      titleZh: "潜行吧！奈亚子",
-      titleEn: "Nyaruko: Crawling with Love",
-      titleJa: "這いよれ！ニャル子さん",
-      score: 7,
-    },
-    {
-      titleZh: "邻座的怪同学",
-      titleEn: "My Little Monster",
-      titleJa: "となりの怪物くん",
-      score: 7.2,
-    },
-    {
-      titleZh: "猫物语（黑）",
-      titleEn: "Nekomonogatari (Black)",
-      titleJa: "猫物語（黒）",
-      score: 7.7,
-    },
-    {
-      titleZh: "少女与战车",
-      titleEn: "Girls und Panzer",
-      titleJa: "ガールズ&パンツァー",
-      score: 7.6,
-    },
-    {
-      titleZh: "心灵链环",
-      titleEn: "Kokoro Connect",
-      titleJa: "ココロコネクト",
-      score: 7.4,
+      score: 0
     },
     {
       titleZh: "TARI TARI",
-      titleEn: "TARI TARI",
       titleJa: "TARI TARI",
-      score: 7.3,
+      score: 0
     },
     {
-      titleZh: "谜样女友X",
-      titleEn: "Mysterious Girlfriend X",
-      titleJa: "謎の彼女X",
-      score: 7,
+      titleZh: "來自新世界",
+      titleJa: "新世界より",
+      score: 0
     },
     {
-      titleZh: "就算是哥哥只要有爱就没问题对吧",
-      titleEn: "OniAi",
-      titleJa: "お兄ちゃんだけど愛さえあれば関係ないよねっ",
-      score: 5.9,
-    },
-    {
-      titleZh: "散华礼弥",
-      titleEn: "Sankarea: Undying Love",
-      titleJa: "さんかれあ",
-      score: 6.8,
-    },
+      titleZh: "記錄的地平線",
+      titleJa: "ログ・ホライズン",
+      score: 0
+    }
   ],
   "2013": [
     {
-      titleZh: "进击的巨人",
-      titleEn: "Attack on Titan",
-      titleJa: "進撃の巨人",
-      score: 8.2,
-    },
-    {
-      titleZh: "斩服少女",
-      titleEn: "Kill la Kill",
-      titleJa: "キルラキル",
-      score: 8.1,
-    },
-    {
-      titleZh: "我的青春恋爱物语果然有问题",
-      titleEn: "My Teen Romantic Comedy SNAFU",
-      titleJa: "やはり俺の青春ラブコメはまちがっている。",
-      score: 7.5,
-    },
-    {
-      titleZh: "悠哉日常大王",
-      titleEn: "Non Non Biyori",
-      titleJa: "のんのんびより",
-      score: 8,
-    },
-    {
-      titleZh: "玉子市场",
-      titleEn: "Tamako Market",
-      titleJa: "たまこまーけっと",
-      score: 7.2,
-    },
-    {
-      titleZh: "向山进发",
-      titleEn: "Yama no Susume",
+      titleZh: "前進吧！登山少女",
       titleJa: "ヤマノススメ",
-      score: 7.1,
+      score: 0
     },
     {
-      titleZh: "约会大作战",
-      titleEn: "Date A Live",
-      titleJa: "デート・ア・ライブ",
-      score: 6.6,
+      titleZh: "RWBY",
+      titleJa: "RWBY",
+      score: 0
     },
     {
-      titleZh: "噬血狂袭",
-      titleEn: "Strike the Blood",
-      titleJa: "ストライク・ザ・ブラッド",
-      score: 6.6,
+      titleZh: "花牌情緣2",
+      titleJa: "ちはやふる2",
+      score: 0
     },
     {
-      titleZh: "来自风平浪静的明天",
-      titleEn: "Nagi-Asu: A Lull in the Sea",
-      titleJa: "凪のあすから",
-      score: 7.5,
+      titleZh: "戰姬絕唱SYMPHOGEAR G",
+      titleJa: "戰姬絕唱 SYMPHOGEAR G",
+      score: 0
     },
     {
-      titleZh: "我的妹妹哪有这么可爱。2",
-      titleEn: "Oreimo 2",
-      titleJa: "俺の妹がこんなに可愛いわけがない。",
-      score: 6.9,
+      titleZh: "有頂天家族",
+      titleJa: "有頂天家族",
+      score: 0
     },
     {
-      titleZh: "我不受欢迎，怎么想都是你们的错！",
-      titleEn: "WataMote",
-      titleJa: "私がモテないのはどう考えてもお前らが悪い！",
-      score: 6.9,
+      titleZh: "銀之匙 Silver Spoon",
+      titleJa: "銀の匙",
+      score: 0
     },
     {
-      titleZh: "境界的彼方",
-      titleEn: "Beyond the Boundary",
-      titleJa: "境界の彼方",
-      score: 6.8,
+      titleZh: "KILL la KILL (斬服少女)",
+      titleJa: "キルラキル",
+      score: 0
     },
     {
-      titleZh: "我的脑内选项正在全力妨碍学园恋爱喜剧",
-      titleEn:
-        "My Brain's Little Options Are Doing Their Best to Hinder My School Romance Comedy",
-      titleJa: "俺の脳内選択肢が、学園ラブコメを全力で邪魔している",
-      score: 6.6,
+      titleZh: "白色相簿2",
+      titleJa: "WHITEALBUM 2",
+      score: 0
     },
     {
-      titleZh: "Fate/kaleid liner 魔法少女☆伊莉雅",
-      titleEn: "Fate/kaleid liner 魔法少女☆イリヤ",
-      titleJa: "Fate/kaleid liner プリズマ☆イリヤ",
-      score: 6.9,
-    },
-    { titleZh: "GJ部", titleEn: "GJ Club", titleJa: "GJ部", score: 6.9 },
-    {
-      titleZh: "弹丸论破 希望学园与绝望高中生",
-      titleEn: "Danganronpa: The Animation",
-      titleJa: "ダンガンロンパ 希望の学園と絶望の高校生 THE ANIMATION",
-      score: 6.6,
+      titleZh: "鑽石王牌",
+      titleJa: "ダイヤのA",
+      score: 0
     },
     {
-      titleZh: "黄金拼图",
-      titleEn: "Golden Time",
-      titleJa: "ゴールデンタイム",
-      score: 7.3,
-    },
-    {
-      titleZh: "Love Live!",
-      titleEn: "Love Live!",
-      titleJa: "ラブライブ！",
-      score: 7.2,
-    },
-    {
-      titleZh: "我女友与青梅竹马的惨烈修罗场",
-      titleEn: "Oreshura",
-      titleJa: "俺の彼女と幼なじみが修羅場すぎる",
-      score: 6.4,
-    },
-    {
-      titleZh: "我的朋友很少NEXT",
-      titleEn: "Haganai NEXT",
-      titleJa: "僕は友達が少ないNEXT",
-      score: 6.7,
-    },
+      titleZh: "鋼彈創鬥者",
+      titleJa: "ガンダムビルドファイターズ",
+      score: 0
+    }
   ],
   "2014": [
-    { titleZh: "白箱", titleEn: "Shirobako", titleJa: "SHIROBAKO", score: 8.7 },
     {
-      titleZh: "四月是你的谎言",
-      titleEn: "Your Lie in April",
-      titleJa: "四月は君の嘘",
-      score: 8,
-    },
-    {
-      titleZh: "Fate/stay night [Unlimited Blade Works]",
-      titleEn: "Fate/stay night [Unlimited Blade Works]",
-      titleJa: "Fate/stay night [Unlimited Blade Works]",
-      score: 7.5,
-    },
-    {
-      titleZh: "游戏人生",
-      titleEn: "No Game No Life",
-      titleJa: "ノーゲーム・ノーライフ",
-      score: 7.7,
-    },
-    {
-      titleZh: "乒乓",
-      titleEn: "Ping Pong",
-      titleJa: "ピンポン THE ANIMATION",
-      score: 8.7,
-    },
-    {
-      titleZh: "甘城光辉游乐园",
-      titleEn: "Amagi Brilliant Park",
-      titleJa: "甘城ブリリアントパーク",
-      score: 7,
-    },
-    {
-      titleZh: "寄生兽 生命的准则",
-      titleEn: "Parasyte -the maxim-",
-      titleJa: "寄生獣 セイの格率",
-      score: 8,
-    },
-    { titleZh: "伪恋", titleEn: "Nisekoi", titleJa: "ニセコイ", score: 7.1 },
-    {
-      titleZh: "月刊少女野崎君",
-      titleEn: "Monthly Girls' Nozaki-kun",
-      titleJa: "月刊少女野崎くん",
-      score: 7.8,
-    },
-    {
-      titleZh: "请问您今天要来点兔子吗？",
-      titleEn: "Is the Order a Rabbit?",
-      titleJa: "ご注文はうさぎですか？",
-      score: 7.3,
-    },
-    {
-      titleZh: "斩·赤红之瞳！",
-      titleEn: "Akame ga Kill!",
-      titleJa: "アカメが斬る！",
-      score: 6.6,
-    },
-    {
-      titleZh: "太空丹迪",
-      titleEn: "Space Dandy",
+      titleZh: "宇宙浪子",
       titleJa: "スペース☆ダンディ",
-      score: 8,
+      score: 0
     },
     {
-      titleZh: "妄想学生会＊",
-      titleEn: "Seitokai Yakuindomo",
-      titleJa: "生徒会役員共＊",
-      score: 7.6,
+      titleZh: "JOJO的奇妙冒險 星塵遠征軍",
+      titleJa: "スターダストクルセイダース",
+      score: 0
     },
     {
-      titleZh: "东京喰种",
-      titleEn: "Tokyo Ghoul",
-      titleJa: "東京喰種トーキョーグール",
-      score: 6.7,
+      titleZh: "一週的朋友。",
+      titleJa: "一週間フレンズ。",
+      score: 0
     },
     {
-      titleZh: "凭物语",
-      titleEn: "Owarimonogatari: End Tale",
-      titleJa: "憑物語",
-      score: 7.5,
+      titleZh: "乒乓 THE ANIMATION",
+      titleJa: "ピンポン THEANIMATION",
+      score: 0
     },
     {
-      titleZh: "灰色的果实",
-      titleEn: "The Fruit of Grisaia",
-      titleJa: "グリザイアの果実",
-      score: 7.1,
+      titleZh: "東京殘響",
+      titleJa: "残響のテロル",
+      score: 0
     },
     {
-      titleZh: "花物语",
-      titleEn: "Hanamonogatari ",
-      titleJa: "花物語",
-      score: 7.3,
+      titleZh: "神擊的巴哈姆特 GENESIS",
+      titleJa: "神撃のバハムートGENESIS",
+      score: 0
     },
-    { titleZh: "农林", titleEn: "Nourin", titleJa: "のうりん", score: 6.6 },
     {
-      titleZh: "魔法科高校的劣等生",
-      titleEn: "The Irregular at Magic High School",
-      titleJa: "魔法科高校の劣等生",
-      score: 5.8,
+      titleZh: "寄生獸 生命的準則",
+      titleJa: "寄生獣セイの格率",
+      score: 0
     },
-    { titleZh: "野良神", titleEn: "Noragami", titleJa: "ノラガミ", score: 7.1 },
+    {
+      titleZh: "白箱",
+      titleJa: "SHIROBAKO",
+      score: 0
+    },
+    {
+      titleZh: "蟲師 續章",
+      titleJa: "蟲師続章",
+      score: 0
+    },
+    {
+      titleZh: "元氣囝仔",
+      titleJa: "ばらかもん",
+      score: 0
+    }
   ],
   "2015": [
     {
-      titleZh: "路人女主的养成方法",
-      titleEn: "Saekano: How to Raise a Boring Girlfriend",
-      titleJa: "冴えない彼女の育てかた",
-      score: 7.2,
+      titleZh: "Go! Princess光之美少女",
+      titleJa: "Go! プリンセスプリキュア",
+      score: 0
     },
     {
-      titleZh: "暗杀教室",
-      titleEn: "Assassination Classroom",
-      titleJa: "暗殺教室",
-      score: 7.3,
+      titleZh: "食戟之靈",
+      titleJa: "食戟のソーマ",
+      score: 0
     },
     {
-      titleZh: "一拳超人",
-      titleEn: "One Punch Man",
-      titleJa: "ワンパンマン",
-      score: 8,
+      titleZh: "可塑性記憶",
+      titleJa: "プラスティック・メモリーズ",
+      score: 0
     },
     {
-      titleZh: "新妹魔王的契约者",
-      titleEn: "The Testament of Sister New Devil",
-      titleJa: "新妹魔王の契約者",
-      score: 5.8,
+      titleZh: "亞爾斯蘭戰記",
+      titleJa: "アルスラーン戦記",
+      score: 0
     },
     {
-      titleZh: "夏洛特",
-      titleEn: "Charlotte",
-      titleJa: "シャーロット",
-      score: 6.3,
+      titleZh: "GATE 奇幻自衛隊",
+      titleJa: "GATE",
+      score: 0
+    },
+    {
+      titleZh: "潮與虎",
+      titleJa: "うしおととら",
+      score: 0
     },
     {
       titleZh: "OVERLORD",
-      titleEn: "Overlord",
       titleJa: "オーバーロード",
-      score: 6.9,
+      score: 0
     },
     {
-      titleZh: "监狱学园",
-      titleEn: "Prison School",
-      titleJa: "監獄学園",
-      score: 7.3,
+      titleZh: "噬神者",
+      titleJa: "ゴッドイーター",
+      score: 0
     },
     {
-      titleZh: "可塑性记忆",
-      titleEn: "Plastic Memories",
-      titleJa: "プラスティック・メモリーズ",
-      score: 7,
+      titleZh: "阿松",
+      titleJa: "おそ松さん",
+      score: 0
     },
     {
-      titleZh: "在地下城寻求邂逅是否搞错了什么",
-      titleEn: "Is it wrong to Try to Pick Up Girls in a Dungeon?",
-      titleJa: "ダンジョンに出会いを求めるのは間違っているだろうか",
-      score: 6.8,
-    },
-    {
-      titleZh: "干物妹！小埋",
-      titleEn: "Himouto! Umaru-chan",
-      titleJa: "干物妹！うまるちゃん",
-      score: 6.8,
-    },
-    {
-      titleZh: "吹响！悠风号",
-      titleEn: "Sound! Euphonium",
-      titleJa: "響け！ユーフォニアム",
-      score: 8.3,
-    },
-    {
-      titleZh: "终物语",
-      titleEn: "Owarimonogatari",
-      titleJa: "終物語",
-      score: 7.8,
-    },
-    {
-      titleZh: "旋转少女",
-      titleEn: "The Rolling Girls",
-      titleJa: "ローリング☆ガールズ",
-      score: 7.4,
-    },
-    {
-      titleZh: "落第骑士英雄谭",
-      titleEn: "Chivalry of a Failed Knight",
-      titleJa: "落第騎士の英雄譚",
-      score: 6.5,
-    },
-    {
-      titleZh: "没有黄段子存在的无聊世界",
-      titleEn: "Shimoneta",
-      titleJa: "下ネタという概念が存在しない退屈な世界",
-      score: 6.1,
-    },
+      titleZh: "放課後的昴星團",
+      titleJa: "放課後のプレアデス",
+      score: 0
+    }
   ],
   "2016": [
     {
-      titleZh: "为美好的世界献上祝福！",
-      titleEn: "Kono Suba",
-      titleJa: "この素晴らしい世界に祝福を！",
-      score: 7.6,
+      titleZh: "粗點心戰爭",
+      titleJa: "だがしかし",
+      score: 0
     },
     {
-      titleZh: "3月的狮子",
-      titleEn: "March Comes in Like a Lion",
-      titleJa: "3月のライオン",
-      score: 8.3,
-    },
-    { titleZh: "ReLIFE", titleEn: "ReLIFE", titleJa: "ReLIFE", score: 7.7 },
-    {
-      titleZh: "齐木楠雄的灾难",
-      titleEn: "The Disastrous Life of Saiki K.",
-      titleJa: "斉木楠雄のΨ難",
-      score: 7.7,
-    },
-    {
-      titleZh: "Re：从零开始的异世界生活",
-      titleEn: "Re:Zero ",
-      titleJa: "Re:ゼロから始める異世界生活",
-      score: 7.4,
-    },
-    {
-      titleZh: "只有我不存在的城市",
-      titleEn: "Erased",
-      titleJa: "僕だけがいない街",
-      score: 7.7,
-    },
-    {
-      titleZh: "灵能百分百",
-      titleEn: "Mob Psycho 100",
-      titleJa: "モブサイコ100",
-      score: 7.8,
-    },
-    {
-      titleZh: "灰与幻想的格林姆迦尔",
-      titleEn: "Grimgar of Fantasy and Ash",
-      titleJa: "灰と幻想のグリムガル",
-      score: 7.5,
-    },
-    {
-      titleZh: "这个美术社大有问题！",
-      titleEn: "This Art Club Has a Problem!",
-      titleJa: "この美術部には問題がある！",
-      score: 7.3,
-    },
-    {
-      titleZh: "轻拍翻转小魔女",
-      titleEn: "Flip Flappers",
-      titleJa: "フリップフラッパーズ",
-      score: 7.5,
-    },
-    {
-      titleZh: "飞翔的魔女",
-      titleEn: "Flying Witch",
-      titleJa: "ふらいんぐうぃっち",
-      score: 7.5,
-    },
-    {
-      titleZh: "NEW GAME!",
-      titleEn: "NEW GAME!",
-      titleJa: "NEW GAME!",
-      score: 7.4,
-    },
-    {
-      titleZh: "在下坂本，有何贵干？",
-      titleEn: "Haven't You Heard? I'm Sakamoto",
-      titleJa: "坂本ですが？",
-      score: 6.5,
-    },
-    {
-      titleZh: "昭和元禄落语心中",
-      titleEn: "Descending Stories: Showa Genroku Rakugo Shinju",
+      titleZh: "昭和元祿落語心中",
       titleJa: "昭和元禄落語心中",
-      score: 8.2,
+      score: 0
     },
     {
-      titleZh: "无彩限的怪灵世界",
-      titleEn: "Myriad Colors Phantom World",
-      titleJa: "無彩限のファントム・ワールド",
-      score: 6.2,
+      titleZh: "灰與幻想的格林姆迦爾",
+      titleJa: "灰と幻想のグリムガル",
+      score: 0
     },
     {
-      titleZh: "线上游戏的老婆不可能是女生？",
-      titleEn: "And You Thought There Is Never a Girl Online? ",
-      titleJa: "ネトゲの嫁は女の子じゃないと思った？",
-      score: 6,
-    },
-    {
-      titleZh: "亚人",
-      titleEn: "Ajin: Demi-Human",
+      titleZh: "亞人",
       titleJa: "亜人",
-      score: 7.3,
+      score: 0
     },
     {
-      titleZh: "甲铁城的卡巴内利",
-      titleEn: "Kabaneri of the Iron Fortress",
-      titleJa: "甲鉄城のカバネリ",
-      score: 5.9,
+      titleZh: "超時空要塞Δ",
+      titleJa: "マクロスΔ",
+      score: 0
     },
     {
-      titleZh: "剑风传奇",
-      titleEn: "Berserk",
-      titleJa: "ベルセルク",
-      score: 6.8,
+      titleZh: "飛翔的魔女",
+      titleJa: "ふらいんぐうぃっち",
+      score: 0
     },
+    {
+      titleZh: "ReLIFE 重返17歲",
+      titleJa: "ReLIFE",
+      score: 0
+    },
+    {
+      titleZh: "星之夢",
+      titleJa: "planetarian",
+      score: 0
+    },
+    {
+      titleZh: "YURI!!! on ICE",
+      titleJa: "ユーリ!!!on ICE",
+      score: 0
+    },
+    {
+      titleZh: "3月的獅子",
+      titleJa: "3月のライオン",
+      score: 0
+    }
   ],
   "2017": [
     {
-      titleZh: "少女终末旅行",
-      titleEn: "Girls' Last Tour",
-      titleJa: "少女終末旅行",
-      score: 8.1,
+      titleZh: "小魔女學園",
+      titleJa: "リトルウィッチアカデミア",
+      score: 0
     },
     {
-      titleZh: "来自深渊",
-      titleEn: "Made in Abyss",
-      titleJa: "メイドインアビス",
-      score: 8.2,
-    },
-    {
-      titleZh: "小林家的龙女仆",
-      titleEn: "Miss Kobayashi's Dragon Maid",
-      titleJa: "小林さんちのメイドラゴン",
-      score: 7.4,
-    },
-    {
-      titleZh: "狂赌之渊",
-      titleEn: "Kakegurui",
-      titleJa: "賭ケグルイ",
-      score: 7,
-    },
-    {
-      titleZh: "末日时在做什么？有没有空？可以来拯救吗？",
-      titleEn: "WorldEnd",
-      titleJa: "終末なにしてますか？忙しいですか？救ってもらっていいですか？",
-      score: 7.6,
+      titleZh: "One Room",
+      titleJa: "One Room",
+      score: 0
     },
     {
       titleZh: "月色真美",
-      titleEn: "Tsuki ga Kirei",
       titleJa: "月がきれい",
-      score: 7.9,
+      score: 0
     },
     {
-      titleZh: "重启咲良田",
-      titleEn: "Sagrada Reset",
-      titleJa: "サクラダリセット",
-      score: 7.9,
+      titleZh: "Re:CREATORS",
+      titleJa: "Re:CREATORS",
+      score: 0
     },
     {
-      titleZh: "BanG Dream!",
-      titleEn: "BanG Dream!",
-      titleJa: "BanG Dream!",
-      score: 6.4,
+      titleZh: "ID-0",
+      titleJa: "ID-0",
+      score: 0
     },
     {
-      titleZh: "幼女战记",
-      titleEn: "Saga of Tanya the Evil",
-      titleJa: "幼女戦記",
-      score: 7.2,
+      titleZh: "活擊 刀劍亂舞",
+      titleJa: "活撃刀剣乱舞",
+      score: 0
     },
     {
-      titleZh: "小魔女学园",
-      titleEn: "Little Witch Academia",
-      titleJa: "リトルウィッチアカデミア",
-      score: 7.7,
+      titleZh: "舞動青春",
+      titleJa: "ボールルームへようこそ",
+      score: 0
     },
     {
-      titleZh: "Just Because!",
-      titleEn: "Just Because!",
-      titleJa: "Just Because!",
-      score: 7.3,
+      titleZh: "少女終末旅行",
+      titleJa: "少女終末旅行",
+      score: 0
     },
     {
-      titleZh: "埃罗芒阿老师",
-      titleEn: "Eromanga Sensei",
-      titleJa: "エロマンガ先生",
-      score: 6.6,
+      titleZh: "魔法使的新娘",
+      titleJa: "魔法使いの嫁",
+      score: 0
     },
     {
-      titleZh: "人渣的本愿",
-      titleEn: "Scum's Wish",
-      titleJa: "クズの本懐",
-      score: 6.6,
-    },
-    {
-      titleZh: "珈百璃的堕落",
-      titleEn: "Gabriel DropOut",
-      titleJa: "ガヴリールドロップアウト",
-      score: 7.1,
-    },
-    {
-      titleZh: "笨女孩",
-      titleEn: "Aho-Girl",
-      titleJa: "アホガール",
-      score: 6.6,
-    },
-    {
-      titleZh: "黑色五叶草",
-      titleEn: "Black Clover",
-      titleJa: "ブラッククローバー",
-      score: 6.5,
-    },
-    {
-      titleZh: "如果有妹妹就好了。",
-      titleEn: "A Sister's All You Need",
-      titleJa: "妹さえいればいい。",
-      score: 6.6,
-    },
-    {
-      titleZh: "徒然喜欢你",
-      titleEn: "Tsuredure Children",
-      titleJa: "徒然チルドレン",
-      score: 7.1,
-    },
-    {
-      titleZh: "不正经的魔术讲师与禁忌教典",
-      titleEn: "Akashic Records of Bastard Magic Instructor",
-      titleJa: "ロクでなし魔術講師と禁忌教典",
-      score: 6.2,
-    },
+      titleZh: "奇諾之旅",
+      titleJa: "キノの旅",
+      score: 0
+    }
   ],
   "2018": [
     {
-      titleZh: "摇曳露营△",
-      titleEn: "Yuru Camp△",
-      titleJa: "ゆるキャン△",
-      score: 8.2,
+      titleZh: "POP TEAM EPIC",
+      titleJa: "ポプテピピック",
+      score: 0
     },
     {
-      titleZh: "碧蓝之海",
-      titleEn: "Grand Blue",
+      titleZh: "MEGALO BOX",
+      titleJa: "メガロボクス",
+      score: 0
+    },
+    {
+      titleZh: "命運石之門0",
+      titleJa: "STEINSGATE 0",
+      score: 0
+    },
+    {
+      titleZh: "BANANA FISH",
+      titleJa: "BANANAFISH",
+      score: 0
+    },
+    {
+      titleZh: "少女☆歌劇 Revue Starlight",
+      titleJa: "少女☆歌劇 レヴュー・スタァライト",
+      score: 0
+    },
+    {
+      titleZh: "碧藍之海",
       titleJa: "ぐらんぶる",
-      score: 7.8,
+      score: 0
     },
     {
-      titleZh: "赛马娘 Pretty Derby",
-      titleEn: "Umamusume Pretty Derby",
-      titleJa: "ウマ娘 プリティーダービー",
-      score: 7,
+      titleZh: "高分少女",
+      titleJa: "ハイスコアガール",
+      score: 0
     },
     {
-      titleZh: "紫罗兰永恒花园",
-      titleEn: "Violet Evergarden",
-      titleJa: "ヴァイオレット・エヴァーガーデン",
-      score: 7.5,
-    },
-    {
-      titleZh: "强风吹拂",
-      titleEn: "Run with the Wind",
-      titleJa: "風が強く吹いている",
-      score: 8.3,
-    },
-    {
-      titleZh: "少女☆歌剧 Revue Starlight",
-      titleEn: "Shoujo☆Kageki Revue Starlight",
-      titleJa: "少女☆歌劇 レヴュースタァライト",
-      score: 7.9,
-    },
-    {
-      titleZh: "擅长捉弄的高木同学",
-      titleEn: "Teasing Master Takagi-san",
-      titleJa: "からかい上手の高木さん",
-      score: 7.5,
-    },
-    {
-      titleZh: "佐贺偶像是传奇",
-      titleEn: "Zombie Land Saga",
-      titleJa: "ゾンビランドサガ",
-      score: 7.8,
-    },
-    {
-      titleZh: "比宇宙更远的地方",
-      titleEn: "A Place Further Than the Universe",
-      titleJa: "宇宙よりも遠い場所",
-      score: 8.2,
-    },
-    {
-      titleZh: "青春笨蛋少年不做兔女郎学姐的梦",
-      titleEn: "Rascal Does Not Dream of Bunny Girl Senpai",
-      titleJa: "青春ブタ野郎はバニーガール先輩の夢を見ない",
-      score: 7.4,
-    },
-    {
-      titleZh: "哥布林杀手",
-      titleEn: "Goblin Slayer",
-      titleJa: "ゴブリンスレイヤー",
-      score: 6.7,
-    },
-    {
-      titleZh: "终将成为你",
-      titleEn: "Bloom into You",
+      titleZh: "終將成為妳",
       titleJa: "やがて君になる",
-      score: 7.8,
+      score: 0
     },
     {
-      titleZh: "DARLING in the FRANXX",
-      titleEn: "DARLING in the FRANXX",
-      titleJa: "ダーリン・イン・ザ・フランキス",
-      score: 6.2,
+      titleZh: "新幹線變形機器人",
+      titleJa: "新幹線変形ロボ シンカリオン",
+      score: 0
     },
     {
-      titleZh: "来玩游戏吧",
-      titleEn: "Gamers!",
-      titleJa: "ゲーマーズ！",
-      score: 7.6,
-    },
-    {
-      titleZh: "邪神与厨二病少女",
-      titleEn: "Dropkick on My Devil!",
-      titleJa: "邪神ちゃんドロップキック",
-      score: 7,
-    },
-    {
-      titleZh: "恋如雨止",
-      titleEn: "After the Rain",
-      titleJa: "恋は雨上がりのように",
-      score: 7.5,
-    },
-    {
-      titleZh: "关于我转生变成史莱姆这档事",
-      titleEn: "That Time I Got Reincarnated as a Slime",
-      titleJa: "転生したらスライムだった件",
-      score: 6.6,
-    },
-    {
-      titleZh: "黄金神威",
-      titleEn: "Golden Kamuy",
+      titleZh: "黃金神威",
       titleJa: "ゴールデンカムイ",
-      score: 7.5,
-    },
+      score: 0
+    }
   ],
   "2019": [
     {
-      titleZh: "冰海战记",
-      titleEn: "Vinland Saga",
-      titleJa: "ヴィンランド・サガ",
-      score: 8.3,
-    },
-    {
-      titleZh: "辉夜大小姐想让我告白～天才们的恋爱头脑战～",
-      titleEn: "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunōsen",
-      titleJa: "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
-      score: 7.8,
-    },
-    {
-      titleZh: "街角魔族",
-      titleEn: "The Demon Girl Next Door",
-      titleJa: "まちカドまぞく",
-      score: 7.5,
-    },
-    {
-      titleZh: "鬼灭之刃",
-      titleEn: "Demon Slayer",
-      titleJa: "鬼滅の刃",
-      score: 7.3,
-    },
-    {
-      titleZh: "炎炎消防队",
-      titleEn: "Fire Force",
-      titleJa: "炎炎ノ消防隊",
-      score: 6.5,
-    },
-    {
-      titleZh: "女高中生的无所事事",
-      titleEn: "Wasteful Days of High School Girls",
-      titleJa: "女子高生の無駄づかい",
-      score: 7.6,
-    },
-    {
-      titleZh: "慎重勇者 ～这个勇者明明超强却过分慎重～",
-      titleEn: "Cautious Hero: ",
-      titleJa: "慎重勇者～この勇者が俺TUEEEくせに慎重すぎる～",
-      score: 6.9,
-    },
-    {
-      titleZh: "天使降临到了我身边！",
-      titleEn: "Angels' 3Piece!",
-      titleJa: "私に天使が舞い降りた！",
-      score: 7.3,
-    },
-    {
-      titleZh: "不吉波普不笑",
-      titleEn: "Boogiepop and Others",
+      titleZh: "幻影死神 (不吉波普不笑)",
       titleJa: "ブギーポップは笑わない",
-      score: 7.3,
+      score: 0
     },
     {
-      titleZh: "笨拙之极的上野",
-      titleEn: "How Clumsy You Are, Miss Ueno",
-      titleJa: "上野さんは不器用",
-      score: 6.5,
+      titleZh: "巴哈姆特之怒 -Manaria Friends-",
+      titleJa: "マナリアフレンズ",
+      score: 0
     },
     {
-      titleZh: "五等分的新娘",
-      titleEn: "The Quintessential Quintuplets",
-      titleJa: "五等分の花嫁",
-      score: 6,
+      titleZh: "魔法水果籃",
+      titleJa: "フルーツバスケット",
+      score: 0
     },
     {
-      titleZh: "约定的梦幻岛",
-      titleEn: "Yakusoku no Neverland",
-      titleJa: "約束のネバーランド",
-      score: 7.6,
+      titleZh: "一弦定音！",
+      titleJa: "この音とまれ!",
+      score: 0
     },
     {
-      titleZh: "只要可爱即使是变态你也会喜欢我吧？",
-      titleEn: "Hensuki",
-      titleJa: "可愛ければ変態でも好きになってくれますか？",
-      score: 6.1,
+      titleZh: "流汗吧！健身少女",
+      titleJa: "ダンベル何キロ持てる?",
+      score: 0
     },
     {
-      titleZh: "Fate/Grand Order -绝对魔兽战线巴比伦尼亚-",
-      titleEn: "Fate/Grand Order -Absolute Demonic Front: Babylonia-",
-      titleJa: "Fate/Grand Order -絶対魔獣戦線バビロニア-",
-      score: 6.8,
+      titleZh: "海盜戰記",
+      titleJa: "ヴィンランド・サガ",
+      score: 0
     },
     {
-      titleZh: "家有女友",
-      titleEn: "Kanojo, Okarishimasu",
-      titleJa: "彼女、お借りします",
-      score: 6.3,
+      titleZh: "非槍人生 NO GUNS LIFE",
+      titleJa: "ノー・ガンズ・ライフ",
+      score: 0
     },
     {
-      titleZh: "君主·埃尔梅罗二世事件簿 魔眼收集列车 Grace note",
-      titleEn: "The Case Files of Lord El-Melloi II: Rail Zeppelin Grace Note",
-      titleJa: "ロード・エルメロイII世の事件簿 -魔眼蒐集列車 Grace note-",
-      score: 6.7,
+      titleZh: "機動戰士鋼彈 THE ORIGIN",
+      titleJa: "機動戦士ガンダムTHE ORIGIN",
+      score: 0
     },
     {
-      titleZh: "石纪元",
-      titleEn: "Dr. Stone",
-      titleJa: "Dr.STONE",
-      score: 7.2,
+      titleZh: "MIX",
+      titleJa: "MIX",
+      score: 0
     },
+    {
+      titleZh: "BEASTARS",
+      titleJa: "BEASTARS",
+      score: 0
+    }
   ],
   "2020": [
     {
-      titleZh: "异种族风俗娘评鉴指南",
-      titleEn: "Ishuzoku Reviewers",
-      titleJa: "異種族レビュアーズ",
-      score: 7.7,
+      titleZh: "別對映像研出手！",
+      titleJa: "映像研には手を出すな!",
+      score: 0
     },
     {
-      titleZh: "魔女之旅",
-      titleEn: "Wandering Witch: The Journey of Elaina",
-      titleJa: "魔女の旅々",
-      score: 7.1,
+      titleZh: "ID:INVADED (異度侵入)",
+      titleJa: "イド：インヴェイデッド",
+      score: 0
     },
     {
-      titleZh: "安达与岛村",
-      titleEn: "Adachi and Shimamura",
-      titleJa: "安達としまむら",
-      score: 7.3,
+      titleZh: "異獸魔都",
+      titleJa: "ドロヘドロ",
+      score: 0
     },
     {
-      titleZh: "异度侵入",
-      titleEn: "ID:INVADED",
-      titleJa: "ID:INVADED イド：インヴェイデッド",
-      score: 7.5,
+      titleZh: "聽我的電波吧",
+      titleJa: "波よ聞いてくれ",
+      score: 0
     },
     {
-      titleZh: "别对映像研出手！",
-      titleEn: "Keep Your Hands Off Eizouken!",
-      titleJa: "映像研には手を出すな！",
-      score: 8.1,
+      titleZh: "昨日之歌",
+      titleJa: "イエスタデイをうたって",
+      score: 0
     },
     {
-      titleZh: "咒术回战",
-      titleEn: "Jujutsu Kaisen",
-      titleJa: "呪術廻戦",
-      score: 7.1,
+      titleZh: "王者天下 第三季",
+      titleJa: "キングダム3期",
+      score: 0
     },
     {
-      titleZh: "总之就是非常可爱",
-      titleEn: "Tonikawa: Over the Moon For You",
-      titleJa: "トニカクカワイイ",
-      score: 6.3,
+      titleZh: "DECA-DENCE",
+      titleJa: "デカダンス",
+      score: 0
     },
     {
-      titleZh: "隐瞒之事",
-      titleEn: "Kakushigoto",
-      titleJa: "かくしごと",
-      score: 7.7,
+      titleZh: "GREAT PRETENDER",
+      titleJa: "GREAT PRETENDER",
+      score: 0
     },
     {
-      titleZh: "虚构推理",
-      titleEn: "In/Spectre",
-      titleJa: "虚構推理",
-      score: 6.3,
+      titleZh: "全員惡玉",
+      titleJa: "アクダマドライブ",
+      score: 0
     },
     {
-      titleZh: "恋爱小行星",
-      titleEn: "Koisuru Asteroid",
-      titleJa: "恋する小惑星",
-      score: 6.9,
-    },
-    {
-      titleZh: "你与我最后的战场，亦或是世界起始的圣战",
-      titleEn: "Our Last Crusade or the Rise of a New World",
-      titleJa: "キミと僕の最後の戦場、あるいは世界が始まる聖戦",
-      score: 5.5,
-    },
-    {
-      titleZh: "邪神与厨二病少女' ",
-      titleEn: "Dropkick on My Devil!",
-      titleJa: "邪神ちゃんドロップキック’",
-      score: 7.3,
-    },
-    {
-      titleZh: "转生成为了只有乙女游戏破灭Flag的邪恶大小姐",
-      titleEn: "My Next Life as a Villainess: All Routes Lead to Doom!",
-      titleJa: "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…",
-      score: 6.5,
-    },
-    {
-      titleZh: "在魔王城说晚安",
-      titleEn: "Sleepy Princess in the Demon Castle",
-      titleJa: "魔王城でおやすみ",
-      score: 7,
-    },
-    {
-      titleZh: "租借女友",
-      titleEn: "Rent-A-Girlfriend",
-      titleJa: "彼女、お借りします",
-      score: 5.8,
-    },
+      titleZh: "體操武士",
+      titleJa: "体操ザムライ",
+      score: 0
+    }
   ],
   "2021": [
     {
-      titleZh: "86 -不存在的战区-",
-      titleEn: "86 -Eighty-Six-",
-      titleJa: "86―エイティシックス―",
-      score: 7.6,
+      titleZh: "賽馬娘 Pretty Derby Season 2",
+      titleJa: "ウマ娘 Season 2",
+      score: 0
     },
     {
-      titleZh: "无职转生～",
-      titleEn: "Mushoku Tensei: Jobless Reincarnation",
-      titleJa: "無職転生 ～異世界行ったら本気だす～",
-      score: 7.9,
+      titleZh: "天竺鼠車車",
+      titleJa: "PUI PUI モルカー",
+      score: 0
     },
     {
-      titleZh: "回复术士的重来人生",
-      titleEn: "Redo of Healer",
-      titleJa: "回復術士のやり直し",
-      score: 6.2,
+      titleZh: "BACK ARROW",
+      titleJa: "バック アロウ",
+      score: 0
     },
     {
-      titleZh: "奇巧计程车",
-      titleEn: "Odd Taxi",
-      titleJa: "オッドタクシー",
-      score: 8.5,
+      titleZh: "工作細胞BLACK",
+      titleJa: "はたらく 細胞BLACK",
+      score: 0
     },
     {
-      titleZh: "打了300年的史莱姆，不知不觉就练到了满级",
-      titleEn: "I’ve Been Killing Slimes for 300 Years and Maxed Out My Level",
-      titleJa: "スライム倒して300年、知らないうちにレベルMAXになってました",
-      score: 6.3,
-    },
-    {
-      titleZh: "漂流少年",
-      titleEn: "Sonny Boy",
-      titleJa: "Sonny Boy",
-      score: 7.8,
-    },
-    {
-      titleZh: "堀与宫村",
-      titleEn: "Horimiya",
-      titleJa: "ホリミヤ",
-      score: 6.8,
-    },
-    {
-      titleZh: "派遣战斗员！",
-      titleEn: "Combatants Will Be Dispatched!",
-      titleJa: "戦闘員、派遣します！",
-      score: 6.3,
-    },
-    {
-      titleZh: "古见同学有交流障碍症",
-      titleEn: "Komi Can't Communicate",
-      titleJa: "古見さんは、コミュ症です。",
-      score: 7,
-    },
-    {
-      titleZh: "奇蛋物语",
-      titleEn: "Wonder Egg Priority",
+      titleZh: "奇蛋物語",
       titleJa: "ワンダーエッグ・プライオリティ",
-      score: 6.8,
+      score: 0
     },
     {
-      titleZh: "我们的重制人生",
-      titleEn: "Remake Our Life!",
-      titleJa: "ぼくたちのリメイク",
-      score: 6.4,
+      titleZh: "奇巧計程車",
+      titleJa: "オッド タクシー",
+      score: 0
     },
     {
-      titleZh: "看得见的女孩",
-      titleEn: "Mieruko-chan",
-      titleJa: "見える子ちゃん",
-      score: 6.8,
+      titleZh: "歌劇少女!!",
+      titleJa: "かげき しょうじょ!!",
+      score: 0
     },
     {
-      titleZh: "异世界迷宫黑心企业",
-      titleEn: "The Dungeon of Black Company",
-      titleJa: "迷宮ブラックカンパニー",
-      score: 6.7,
+      titleZh: "Sonny Boy (漂流少年)",
+      titleJa: "Sonny Boy",
+      score: 0
     },
     {
-      titleZh: "女神宿舍的宿管君。",
-      titleEn: "Megami-ryō no Ryōbo-kun",
-      titleJa: "女神寮の寮母くん。",
-      score: 5.8,
+      titleZh: "平穩世代的韋駄天們",
+      titleJa: "平穏世代の韋駄天達",
+      score: 0
     },
+    {
+      titleZh: "藍色時期",
+      titleJa: "ブルーピリオド",
+      score: 0
+    }
   ],
   "2022": [
     {
-      titleZh: "孤独摇滚！",
-      titleEn: "Bocchi the Rock!",
-      titleJa: "ぼっち・ざ・ろっく！",
-      score: 8.4,
+      titleZh: "福星小子",
+      titleJa: "うる星やつら",
+      score: 0
     },
     {
-      titleZh: "莉可丽丝",
-      titleEn: "Lycoris Recoil",
-      titleJa: "リコリス・リコイル",
-      score: 6.3,
+      titleZh: "平家物語",
+      titleJa: "平家物語",
+      score: 0
     },
     {
-      titleZh: "想要成为影之实力者！",
-      titleEn: "The Eminence in Shadow",
-      titleJa: "陰の実力者になりたくて！",
-      score: 7.1,
+      titleZh: "派對咖孔明",
+      titleJa: "パリピ孔明",
+      score: 0
     },
     {
-      titleZh: "夏日重现",
-      titleEn: "Summer Time Rendering",
-      titleJa: "サマータイムレンダ",
-      score: 7.5,
-    },
-    {
-      titleZh: "异世界舅舅",
-      titleEn: "Uncle from Another World",
-      titleJa: "異世界おじさん",
-      score: 7.6,
-    },
-    {
-      titleZh: "更衣人偶坠入爱河",
-      titleEn: "My Dress-Up Darling",
-      titleJa: "その着せ替え人形は恋をする",
-      score: 7.2,
-    },
-    {
-      titleZh: "彻夜之歌",
-      titleEn: "Call of the Night",
-      titleJa: "よふかしのうた",
-      score: 7.4,
-    },
-    {
-      titleZh: "测不准的阿波连同学",
-      titleEn: "Aharen Is Indecipherable",
-      titleJa: "阿波連さんははかれない",
-      score: 6.4,
-    },
-    {
-      titleZh: "间谍过家家",
-      titleEn: "SPY×FAMILY",
-      titleJa: "SPY×FAMILY",
-      score: 7.2,
-    },
-    {
-      titleZh: "不道德公会",
-      titleEn: "Immoral Guild",
-      titleJa: "不徳のギルド",
-      score: 7.1,
-    },
-    {
-      titleZh: "链锯人",
-      titleEn: "Chainsaw Man",
-      titleJa: "チェンソーマン",
-      score: 6.9,
-    },
-    {
-      titleZh: "明日同学的水手服",
-      titleEn: "Akebi's Sailor Uniform",
-      titleJa: "明日ちゃんのセーラー服",
-      score: 7.5,
-    },
-    {
-      titleZh: "契约之吻",
-      titleEn: "Engage Kiss",
-      titleJa: "エンゲージ・キス",
-      score: 6.9,
+      titleZh: "小鳥之翼",
+      titleJa: "BIRDIEWING",
+      score: 0
     },
     {
       titleZh: "相合之物",
-      titleEn: "Sasaki and Miyano",
-      titleJa: "佐々木と宮野",
-      score: 7.8,
+      titleJa: "であいもん",
+      score: 0
     },
+    {
+      titleZh: "青之蘆葦",
+      titleJa: "アオアシ",
+      score: 0
+    },
+    {
+      titleZh: "來自深淵 烈日的黃金鄉",
+      titleJa: "メイドインアビス烈日の黄金郷",
+      score: 0
+    },
+    {
+      titleZh: "徹夜之歌",
+      titleJa: "よふかしのうた",
+      score: 0
+    },
+    {
+      titleZh: "死神 千年血戰篇",
+      titleJa: "BLEACH千年血戦篇",
+      score: 0
+    },
+    {
+      titleZh: "我想成為影之強者！",
+      titleJa: "陰の実力者になりたくて！",
+      score: 0
+    }
   ],
   "2023": [
     {
-      titleZh: "葬送的芙莉莲",
-      titleEn: "Frieren: Beyond Journey's End",
-      titleJa: "葬送のフリーレン",
-      score: 8.5,
+      titleZh: "尼爾：自動人形 Ver1.1a",
+      titleJa: "NieR:AutomataVer1.1a",
+      score: 0
     },
     {
-      titleZh: "药屋少女的呢喃",
-      titleEn: "The Apothecary Diaries",
-      titleJa: "薬屋のひとりごと",
-      score: 7.5,
-    },
-    {
-      titleZh: "BanG Dream! It's MyGO!!!!!",
-      titleEn: "BanG Dream! It's MyGO!!!!!",
-      titleJa: "BanG Dream! It's MyGO!!!!!",
-      score: 8.1,
-    },
-    {
-      titleZh: "我心里危险的东西",
-      titleEn: "The Dangers in My Heart",
-      titleJa: "僕の心のヤバイやつ",
-      score: 7.8,
-    },
-    {
-      titleZh: "超超超超超喜欢你的100个女朋友",
-      titleEn: "The 100 Girlfriends Who Really Love You",
-      titleJa: "君のことが大大大大大好きな100人の彼女",
-      score: 7.3,
-    },
-    {
-      titleZh: "别当欧尼酱了！",
-      titleEn: "Onimai: I'm Now Your Sister!",
-      titleJa: "お兄ちゃんはおしまい！",
-      score: 7.6,
-    },
-    {
-      titleZh: "跃动青春",
-      titleEn: "Skip and Loafer",
-      titleJa: "スキップとローファー",
-      score: 7.7,
-    },
-    {
-      titleZh: "宝可梦 地平线",
-      titleEn: "Pokémon Horizons",
-      titleJa: "ポケットモンスター 地平線",
-      score: 7.5,
-    },
-    {
-      titleZh: "香格里拉·弗陇提亚～屎作猎人向神作发起挑战～",
-      titleEn: "Shangri-La Frontier",
-      titleJa: "シャングリラ・フロンティア ～クソゲーハンター、神ゲーに挑む～",
-      score: 6.4,
-    },
-    {
-      titleZh: "无神世界的神明活动",
-      titleEn: "KamiKatsu: Working for God in a Godless World",
-      titleJa: "神無き世界のカミサマ活動",
-      score: 6.8,
-    },
-    {
-      titleZh: "我推的孩子",
-      titleEn: "Oshi no Ko",
-      titleJa: "【推しの子】",
-      score: 7.4,
-    },
-    {
-      titleZh: "天国大魔境",
-      titleEn: "Heavenly Delusion",
+      titleZh: "天國大魔境",
       titleJa: "天国大魔境",
-      score: 7.8,
+      score: 0
     },
     {
-      titleZh: "异世界悠闲农家",
-      titleEn: "Farming Life in Another World",
-      titleJa: "異世界のんびり農家",
-      score: 6.4,
+      titleZh: "偶像大師 灰姑娘女孩 U149",
+      titleJa: "アイマス U149",
+      score: 0
     },
+    {
+      titleZh: "江戶前精靈",
+      titleJa: "江戸前エルフ",
+      score: 0
+    },
+    {
+      titleZh: "World Dai Star",
+      titleJa: "ワールドダイスター",
+      score: 0
+    },
+    {
+      titleZh: "放學後失眠的你",
+      titleJa: "君は放課後インソムニア",
+      score: 0
+    },
+    {
+      titleZh: "能幹貓今天也憂鬱",
+      titleJa: "デキる猫は今日も憂鬱",
+      score: 0
+    },
+    {
+      titleZh: "黑暗集會",
+      titleJa: "ダークギャザリング",
+      score: 0
+    },
+    {
+      titleZh: "香格里拉·開拓異境～糞作獵手挑戰神作～",
+      titleJa: "シャングリラフロンティア",
+      score: 0
+    },
+    {
+      titleZh: "搞不懂的藤丸立香",
+      titleJa: "藤丸立香はわからない",
+      score: 0
+    }
   ],
   "2024": [
     {
-      titleZh: "败犬女主太多了！",
-      titleEn: "Too Many Losing Heroines!",
-      titleJa: "負けヒロインが多すぎる！",
-      score: 8,
-    },
-    {
-      titleZh: "GIRLS BAND CRY",
-      titleEn: "GIRLS BAND CRY",
-      titleJa: "ガールズバンドクライ",
-      score: 7.6,
-    },
-    {
-      titleZh: "胆大党",
-      titleEn: "Dandadan",
-      titleJa: "ダンダダン",
-      score: 7.5,
-    },
-    {
-      titleZh: "义妹生活",
-      titleEn: "Gimai Seikatsu",
-      titleJa: "義妹生活",
-      score: 7.3,
-    },
-    {
-      titleZh: "迷宫饭",
-      titleEn: "Delicious in Dungeon",
-      titleJa: "ダンジョン飯",
-      score: 7.8,
-    },
-    {
-      titleZh: "我独自升级",
-      titleEn: "Solo Leveling",
-      titleJa: "俺だけレベルアップな件",
-      score: 6.5,
-    },
-    {
-      titleZh: "小市民系列",
-      titleEn: "Shoshimin",
-      titleJa: "小市民シリーズ",
-      score: 6.1,
-    },
-    {
-      titleZh: "梦想成为魔法少女",
-      titleEn: "Gushing over Magical Girls",
+      titleZh: "夢想成為魔法少女",
       titleJa: "魔法少女にあこがれて",
-      score: 7,
-    },
-    { titleZh: "青之箱", titleEn: "Blue Box", titleJa: "青の箱", score: 6.8 },
-    {
-      titleZh: "2.5次元的诱惑",
-      titleEn: "2.5 Dimensional Seduction",
-      titleJa: "2.5次元の誘惑",
-      score: 6.7,
+      score: 0
     },
     {
-      titleZh: "地。 ―关于地球的运动―",
-      titleEn: "Orb: On the Movements of the Earth",
-      titleJa: "地球の運動について",
-      score: 6.2,
+      titleZh: "勇氣爆發 BANG BRAVERN",
+      titleJa: "勇気爆発バーンブレイバーン",
+      score: 0
     },
     {
-      titleZh: "失忆投捕",
-      titleEn: "Oblivion Battery",
-      titleJa: "忘却バッテリー",
-      score: 7.9,
+      titleZh: "末班列車去哪裡？",
+      titleJa: "終末トレインどこへいく？",
+      score: 0
     },
     {
-      titleZh: "不时轻声地以俄语遮羞的邻座艾莉同学",
-      titleEn: "Alya Sometimes Hides Her Feelings in Russian",
-      titleJa: "時々ボソッとロシア語でデレる隣のアーリャさん",
-      score: 5.6,
+      titleZh: "狼與辛香料",
+      titleJa: "狼と香辛料",
+      score: 0
     },
     {
-      titleZh: "悲喜渔生",
-      titleEn: "Fisherman's Songs",
+      titleZh: "烏鴉不選主",
+      titleJa: "烏は主を選ばない",
+      score: 0
+    },
+    {
+      titleZh: "噗妮露是可愛史萊姆",
+      titleJa: "ぷにるはかわいいスライム",
+      score: 0
+    },
+    {
+      titleZh: "義妹生活",
+      titleJa: "義妹生活",
+      score: 0
+    },
+    {
+      titleZh: "深夜Punch",
+      titleJa: "真夜中ぱんチ",
+      score: 0
+    },
+    {
+      titleZh: "哎咕島消失的舔甜歌姬",
+      titleJa: "エグミレガシー",
+      score: 0
+    },
+    {
+      titleZh: "悲喜漁生",
       titleJa: "ネガポジアングラー",
-      score: 7.3,
-    },
-    {
-      titleZh: "亚托莉 -我挚爱的时光-",
-      titleEn: "Atri: My Dear Moments",
-      titleJa: "ATRI -My Dear Moments-",
-      score: 6.3,
-    },
-    {
-      titleZh: "缘结甘神家",
-      titleEn: "Tying the Knot with an Amagami Sister",
-      titleJa: "甘神さんちの縁結び",
-      score: 5.9,
-    },
+      score: 0
+    }
   ],
   "2025": [
     {
-      titleZh: "古诺希亚",
-      titleEn: "GNOSIA",
-      titleJa: "グノーシア",
-      score: 7.5,
+      titleZh: "小市民系列 第二季",
+      titleJa: "小市民シリーズ2期",
+      score: 0
     },
     {
-      titleZh: "弹珠汽水瓶里的千岁同学",
-      titleEn: "Chitose Is in the Ramune Bottle",
-      titleJa: "千歳くんはラムネ瓶のなか",
-      score: 4.1,
+      titleZh: "全修。",
+      titleJa: "全修。",
+      score: 0
     },
     {
-      titleZh: "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
-      titleEn: "There's No Freaking Way I'll be Your Lover! Unless...",
-      titleJa:
-        "わたしが恋人になれるわけないじゃん、ムリムリ！（※ムリじゃなかった!?）",
-      score: 7.4,
+      titleZh: "群花綻放、彷如修羅",
+      titleJa: "花は咲く、修羅の如く",
+      score: 0
     },
     {
-      titleZh: "金牌得主",
-      titleEn: "Medalist",
-      titleJa: "メダリスト",
-      score: 8,
+      titleZh: "NUKITASHI THE ANIMATION",
+      titleJa: "\"ぬきたし THE ANIMATION\"",
+      score: 0
     },
     {
-      titleZh: "琉璃的宝石",
-      titleEn: "Ruri Rocks",
-      titleJa: "瑠璃の宝石",
-      score: 8.1,
+      titleZh: "搖滾是淑女的嗜好",
+      titleJa: "ロックは淑女の嗜みでして",
+      score: 0
     },
     {
-      titleZh: "末日后酒店",
-      titleEn: "Apocalypse Hotel",
-      titleJa: "アポカリプスホテル",
-      score: 8.2,
+      titleZh: "我們不可能成為戀人！絕對不行。 (※似乎可行？)",
+      titleJa: "わたしが恋人になれるわけないじゃん、ムリムリ！",
+      score: 0
     },
     {
-      titleZh: "拔作岛",
-      titleEn: "Nukitashi THE ANIMATION",
-      titleJa: "ぬきたし THE ANIMATION",
-      score: 6.7,
+      titleZh: "CITY THE ANIMATION",
+      titleJa: "CITY THE ANIMATION",
+      score: 0
     },
     {
-      titleZh: "时光流逝，饭菜依旧美味",
-      titleEn: "Food for the Soul",
-      titleJa: "日々は過ぎれど飯うまし",
-      score: 7.7,
+      titleZh: "銀河特急 Milky Subway",
+      titleJa: "銀河特急 ミルキー☆サブウェイ",
+      score: 0
     },
     {
-      titleZh: "东岛丹三郎想成为假面骑士",
-      titleEn: "Tojima Tanzaburo Wants to Be a Masked Rider",
-      titleJa: "東島丹三郎は仮面ライダーになりたい",
-      score: 6.9,
+      titleZh: "Summer Pockets",
+      titleJa: "Summer Pockets",
+      score: 0
     },
     {
-      titleZh: "薰香花朵凛然绽放",
-      titleEn: "The Fragrant Flower Blooms with Dignity",
-      titleJa: "薫る花は凛と咲く",
-      score: 7,
+      titleZh: "野原廣志 午餐的流派",
+      titleJa: "野原ひろし 昼メシの流儀",
+      score: 0
+    }
+  ],
+  "2026前半": [
+    {
+      titleZh: "淡島百景",
+      titleJa: "淡島百景",
+      score: 0
     },
     {
-      titleZh: "赛马娘 芦毛灰姑娘",
-      titleEn: "Uma Musume Cinderella Gray",
-      titleJa: "ウマ娘 シンデレラグレイ",
-      score: 7.5,
+      titleZh: "現在的是哪一個多聞！？",
+      titleJa: "多聞くん今どっち!?",
+      score: 0
     },
     {
-      titleZh: "废渊战鬼",
-      titleEn: "Gachiakuta",
-      titleJa: "ガチアクタ",
-      score: 6.2,
+      titleZh: "日本三國",
+      titleJa: "日本三國",
+      score: 0
     },
+    {
+      titleZh: "處刑勇者",
+      titleJa: "勇者刑に処す",
+      score: 0
+    },
+    {
+      titleZh: "女神「異世界轉生想成為什麼」我「勇者的肋骨」",
+      titleJa: "女神『異世界転生何になりたいですか』俺「勇者の肋骨で」",
+      score: 0
+    },
+    {
+      titleZh: "姊姊遊戲",
+      titleJa: "お姉ちゃんごっこ",
+      score: 0
+    },
+    {
+      titleZh: "小書痴的下剋上",
+      titleJa: "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女",
+      score: 0
+    },
+    {
+      titleZh: "上伊那牡丹，醉姿如百合",
+      titleJa: "上伊那ぼたん、酔へる姿は百合の花",
+      score: 0
+    },
+    {
+      titleZh: "北斗神拳 -FIST OF THE NORTH STAR-",
+      titleJa: "北斗神拳 -FIST OF THE NORTH STAR-",
+      score: 0
+    },
+    {
+      titleZh: "霧尾粉絲後援會",
+      titleJa: "霧尾ファンクラブ",
+      score: 0
+    }
   ],
 }
 
-// 添加一个辅助函数来根据语言获取动画标题
 export const getAnimeTitle = (anime: AnimeItem, language: Language): string => {
-  return anime[
-    ("title" +
-      language.charAt(0).toUpperCase() +
-      language.slice(1)) as keyof AnimeItem
-  ] as string
+  if (language === "zh") {
+    return anime.titleZh || anime.titleJa
+  }
+  return anime.titleJa
 }
 
 export default data

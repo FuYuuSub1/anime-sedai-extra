@@ -7,7 +7,6 @@ interface I18nContextType {
   setLanguage: (lang: Language) => void
   t: (key: keyof typeof translations.zh, interpolations?: Record<string, string | number>) => string
   isZh: boolean
-  isEn: boolean
 }
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined)
@@ -48,8 +47,7 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
     language,
     setLanguage,
     t,
-    isZh: language === 'zh',
-    isEn: language === 'en'
+    isZh: language === 'zh'
   }
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>

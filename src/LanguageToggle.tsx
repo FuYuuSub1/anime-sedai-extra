@@ -18,16 +18,6 @@ export const LanguageToggle = () => {
       </button>
       <button
         className={`px-3 py-1 text-sm rounded transition-colors ${
-          language === "en"
-            ? "bg-blue-500 text-white"
-            : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-        }`}
-        onClick={() => setLanguage("en")}
-      >
-        {t("english")}
-      </button>
-      <button
-        className={`px-3 py-1 text-sm rounded transition-colors ${
           language === "ja"
             ? "bg-blue-500 text-white"
             : "bg-gray-200 text-gray-700 hover:bg-gray-300"
