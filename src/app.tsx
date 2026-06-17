@@ -33,7 +33,7 @@ export const App = () => {
   const visibleAnimeKeys = useMemo(() => {
     return visibleYears.flatMap((year) => {
       const items = animeData[year] || []
-      return items.slice(0, 12).map((item) => getAnimeTitle(item, "zh"))
+      return items.slice(0, 10).map((item) => getAnimeTitle(item, "zh"))
     })
   }, [visibleYears])
 
@@ -171,7 +171,7 @@ export const App = () => {
                       </span>
                     </div>
                     <div className="flex shrink-0">
-                      {items.slice(0, 12).map((item) => {
+                      {items.slice(0, 10).map((item) => {
                         const animeKey = getAnimeTitle(item, "zh")
                         const displayTitle = getAnimeTitle(item, language)
                         const isSelected = selectedAnime.includes(animeKey)
@@ -211,7 +211,7 @@ export const App = () => {
                         )
                       })}
                       {Array.from(
-                        { length: Math.max(0, 12 - items.length) },
+                        { length: Math.max(0, 10 - items.length) },
                         (_, index) => (
                           <div
                             key={`empty-${index}`}
